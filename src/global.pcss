@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Global Colors*/
+:root {
+  --purple: #9b98ae;
+  --brown: #5e565d;
+  --dust-rose: #ac7a7f;
+  --gold: #d5b59e;
+  --off-white: #f7f8f6;
+}
+
+/*Global Fonts*/
+.fancy-font {
+  font-family: "Annie Use Your Telescope", cursive;
+  color: var(--brown);
+  font-size: 1.5em;
+}
+
+.h4-uppercase {
+  color: var(--off-white);
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+}
