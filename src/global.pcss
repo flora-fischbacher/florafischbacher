@@ -2,61 +2,102 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Global Colors*/
-:root {
-  --purple: #9b98ae;
-  --brown: #5e565d;
-  --dust-rose: #ac7a7f;
-  --gold: #d5b59e;
-  --off-white: #f7f8f6;
-}
-
 /*Global Fonts*/
 .fancy-font {
   font-family: "Annie Use Your Telescope", cursive;
-  color: var(--brown);
-  font-size: 1.5em;
+  @apply text-brand-brown text-2xl;
+}
+
+.fancy-font-inverted {
+  font-family: "Annie Use Your Telescope", cursive;
+  @apply text-center mb-6 text-5xl text-brand-off-white;
 }
 
 .h4-uppercase {
-  color: var(--off-white);
+  @apply text-brand-off-white text-lg mb-6;
   text-transform: uppercase;
+}
+.tagline {
+  font-family: "Annie Use Your Telescope", cursive;
+  @apply text-brand-dust-rose text-2xl;
+}
+
+.tagline-inverted {
+  font-family: "Annie Use Your Telescope", cursive;
+  @apply text-brand-off-white text-2xl;
+}
+
+.section-heading {
+  @apply text-brand-brown text-4xl;
+}
+.imageText-heading {
+  @apply text-brand-brown text-2xl mb-5;
+}
+.imageText-heading-inverted {
+  @apply text-brand-off-white text-2xl mb-5;
+}
+.imageText-button {
+  font-family: "Annie Use Your Telescope", cursive;
+  @apply text-brand-dust-rose text-2xl block mt-12 underline;
+}
+.imageText-button-inverted {
+  font-family: "Annie Use Your Telescope", cursive;
+  @apply text-brand-off-white text-2xl block mt-12 underline;
+}
+.p-inverted {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply text-brand-off-white;
+}
+
+.image-left-purple {
+  @apply md:float-right w-full p-8 my-0 md:my-12 ml-0 md:p-0  md:ml-8 lg:ml-14 2xl:ml-24;
+  box-shadow: 0 2px 22px 0 #9b98ae;
+}
+
+.image-right-purple {
+  @apply md:float-left w-full p-8 my-0 md:my-12 mr-0 md:p-0  md:mr-8 lg:mr-14 2xl:mr-28;
+  box-shadow: 0 2px 22px 0 #9b98ae;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
-  color: #333;
+  color: #757171;
+  padding-top: 102px;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 0.5em 0;
-  font-weight: 400;
-  line-height: 1.2;
+.list-inverted {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply text-brand-off-white mt-2;
+  list-style: square;
 }
 
 a {
   color: inherit;
 }
-
-code {
-  font-family: menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
-  color: #555;
-  background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
-  border-radius: 2px;
+.grid-box {
+  @apply px-4 my-32 md:px-11 lg:px-52 py-16;
 }
-
-@media (min-width: 400px) {
-  body {
-    font-size: 16px;
-  }
+.grid-box-gold {
+  @apply px-4 my-32 md:px-11 lg:px-52 py-16 bg-brand-gold;
+}
+.card {
+  @apply h-full text-center p-6 2xl:p-16 bg-brand-off-white;
+  box-shadow: 0 2px 22px 0 rgba(172, 122, 127, 0.61);
+}
+.grid-icon {
+  @apply mx-auto mb-4 h-9;
+}
+.footer-icon {
+  @apply mx-auto h-8;
+}
+.section-container {
+  @apply px-6 my-32 sm:px-8 md:px-11 lg:px-16 xl:px-44;
+}
+.purple-shadow {
+  box-shadow: 0 2px 22px 0 #9b98ae;
+}
+.text-grid {
+  @apply h-full p-6 text-center 2xl:p-16;
 }
