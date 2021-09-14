@@ -29,7 +29,6 @@ specifiers:
   svelte: ^3.17.3
   svelte-awesome: ^2.3.2
   svelte-click-outside: ^1.0.0
-  svelte-compare-image-slider: ^0.1.15
   svelte-preprocess: ^4.7.4
   tailwindcss: ^2.2.7
   typescript: ^4.3.5
@@ -65,7 +64,6 @@ devDependencies:
   svelte: 3.42.1
   svelte-awesome: 2.3.2
   svelte-click-outside: 1.0.0
-  svelte-compare-image-slider: 0.1.15
   svelte-preprocess: 4.7.4_1514bffcf71d31a7e86b1247f173f024
   tailwindcss: 2.2.7_7b69a43ec4689fa7484dee35f79a7806
   typescript: 4.3.5
@@ -1686,12 +1684,6 @@ packages:
     resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=}
     dev: true
 
-  /compare-image-slider/0.1.15:
-    resolution: {integrity: sha512-Alko2CcpfOSlqTvTGt7tKbpTFzAZXWQ7edWpk+Pd3IFijDGpqt//1tU84psk5W7V9DDh67xT8f4n1bZCAWB+fw==}
-    dependencies:
-      lit-element: 2.5.1
-    dev: true
-
   /compressible/2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
     engines: {node: '>= 0.6'}
@@ -2474,16 +2466,6 @@ packages:
 
   /lines-and-columns/1.1.6:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
-    dev: true
-
-  /lit-element/2.5.1:
-    resolution: {integrity: sha512-ogu7PiJTA33bEK0xGu1dmaX5vhcRjBXCFexPja0e7P7jqLhTpNKYRPmE+GmiCaRVAbiQKGkUgkh/i6+bh++dPQ==}
-    dependencies:
-      lit-html: 1.4.1
-    dev: true
-
-  /lit-html/1.4.1:
-    resolution: {integrity: sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==}
     dev: true
 
   /load-json-file/4.0.0:
@@ -3671,12 +3653,6 @@ packages:
 
   /svelte-click-outside/1.0.0:
     resolution: {integrity: sha512-TVDn5Vd8L0WI0Y9BFh/2I7judkIqYCbFKkGwGl/f8D0inwBFNyU0weKhrbJY4VQtYnWriq0NPl+mIYGisgALbw==}
-    dev: true
-
-  /svelte-compare-image-slider/0.1.15:
-    resolution: {integrity: sha512-yqhsHsGIz9dLDYEExkO2uB3i86Za3rrRk0DplRtsRFd2IlgFPSrAzPn2PqFs7Xi9ueA0hx7bM+oQATZ9XEp3tg==}
-    dependencies:
-      compare-image-slider: 0.1.15
     dev: true
 
   /svelte-preprocess/4.7.4_1514bffcf71d31a7e86b1247f173f024:

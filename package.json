@@ -42,7 +42,6 @@
     "svelte": "^3.17.3",
     "svelte-awesome": "^2.3.2",
     "svelte-click-outside": "^1.0.0",
-    "svelte-compare-image-slider": "^0.1.15",
     "svelte-preprocess": "^4.7.4",
     "tailwindcss": "^2.2.7",
     "typescript": "^4.3.5"
