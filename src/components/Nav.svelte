@@ -1,69 +1,86 @@
-<script>
-  export let segment;
+<script lang="ts">
+  import Icon from "svelte-awesome";
+  import { faBars } from "@fortawesome/free-solid-svg-icons";
+  import ClickOutside from "svelte-click-outside";
+  export let segment: string;
+  let open = false;
+  const toggleHamburgerMenu = () => {
+    open = !open;
+  };
 </script>
 
-<nav>
-  <ul>
-    <li>
-      <a aria-current={segment === undefined ? "page" : undefined} href="."
-        >Home</a
+<header class="fixed top-0 w-full bg-white header-box-shadow">
+  <div
+    class="container flex flex-wrap items-center justify-between p-3 mx-auto bg-white"
+  >
+    <div class="flex">
+      <a
+        sveltekit:prefetch
+        href="/"
+        class="block mt-0 text-xl font-semibold tracking-tight md:inline-block"
       >
-    </li>
-    <li>
-      <a aria-current={segment === "about" ? "page" : undefined} href="about"
-        >Portfolio</a
+        <img class="w-3/4" src="/flora-logo.png" alt="Flora Fischbacher" />
+      </a>
+    </div>
+    <div class="ml-auto md:hidden">
+      <ClickOutside on:clickoutside="{() => (open = false)}">
+        <button
+          class="flex items-center px-3 py-2 rounded-sm bg-brand-dust-rose text-brand-off-white hover:bg-brand-brown"
+          aria-label="Hamburger menu"
+          on:click="{toggleHamburgerMenu}"
+        >
+          <Icon data="{faBars}" class="text-xl" />
+        </button>
+      </ClickOutside>
+    </div>
+    <nav
+      aria-label="Header navigation"
+      class:hidden="{!open}"
+      class="w-full ml-auto md:flex md:w-auto"
+    >
+      <a
+        sveltekit:prefetch
+        href="/"
+        class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === undefined}"
       >
-    </li>
-    <li>
-      <a aria-current={segment === "about" ? "page" : undefined} href="about"
-        >Resume</a
+        Home
+      </a>
+      <a
+        sveltekit:prefetch
+        href="/portfolio"
+        class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === 'portfolio'}"
       >
-    </li>
-  </ul>
-</nav>
+        Portfolio
+      </a>
+      <a
+        sveltekit:prefetch
+        href="/resume"
+        class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === 'resume'}"
+      >
+        Resume
+      </a>
+    </nav>
+  </div>
+</header>
 
-<style>
-  nav {
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
-    font-weight: 300;
-    padding: 0 1em;
+<style lang="postcss">
+  .header-box-shadow {
+    box-shadow: 0 2px 22px 0 #bdbcbca6;
   }
-
-  ul {
-    margin: 0;
-    padding: 0;
+  header {
+    z-index: 1;
   }
-
-  /* clearfix */
-  ul::after {
-    content: "";
-    display: block;
-    clear: both;
+  .nav-link {
+    @apply block text-brand-brown mt-4 mr-4 text-2xl no-underline p-4;
+    font-family: "Annie Use Your Telescope", cursive;
   }
-
-  li {
-    display: block;
-    float: left;
+  .nav-link:hover {
+    @apply text-brand-dust-rose;
   }
-
-  [aria-current] {
-    position: relative;
-    display: inline-block;
-  }
-
-  [aria-current]::after {
-    position: absolute;
-    content: "";
-    width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(255, 62, 0);
-    display: block;
-    bottom: -1px;
-  }
-
-  a {
-    text-decoration: none;
-    padding: 1em 0.5em;
-    display: block;
+  .nav-link-active {
+    @apply text-brand-dust-rose;
   }
 </style>
