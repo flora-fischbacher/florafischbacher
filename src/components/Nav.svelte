@@ -2,11 +2,8 @@
   import Icon from "svelte-awesome";
   import { faBars } from "@fortawesome/free-solid-svg-icons";
   import ClickOutside from "svelte-click-outside";
-
   export let segment: string;
-
   let open = false;
-
   const toggleHamburgerMenu = () => {
     open = !open;
   };
@@ -73,7 +70,6 @@
   .header-box-shadow {
     box-shadow: 0 2px 22px 0 #bdbcbca6;
   }
-
   header {
     z-index: 1;
   }
@@ -81,7 +77,6 @@
     @apply block text-brand-brown mt-4 mr-4 text-2xl no-underline p-4;
     font-family: "Annie Use Your Telescope", cursive;
   }
-
   .nav-link:hover {
     @apply text-brand-dust-rose;
   }
