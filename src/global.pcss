@@ -17,6 +17,10 @@
   @apply text-brand-off-white text-lg mb-6;
   text-transform: uppercase;
 }
+.h4-uppercase-inverted {
+  @apply text-brand-brown text-xl mb-6;
+  text-transform: uppercase;
+}
 .tagline {
   font-family: "Annie Use Your Telescope", cursive;
   @apply text-brand-dust-rose text-2xl;
@@ -93,11 +97,23 @@ a {
   @apply mx-auto h-8;
 }
 .section-container {
-  @apply px-6 my-32 sm:px-8 md:px-11 lg:px-16 xl:px-44;
+  @apply px-6 my-24 lg:my-32 sm:px-8 md:px-11 lg:px-16 xl:px-44;
 }
 .purple-shadow {
   box-shadow: 0 2px 22px 0 #9b98ae;
 }
 .text-grid {
   @apply h-full p-6 text-center 2xl:p-16;
+}
+.background-rectangle {
+  @apply w-full lg:h-64 h-48 absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  z-index: -1;
+}
+
+/* See https://www.keycdn.com/blog/animation-performance#when-to-use-will-change */
+.will-change {
+  will-change: transform, transition;
 }

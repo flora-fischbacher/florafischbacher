@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Flora Fischbacher - UX Designer</title>
+  <title>Flora Fischbacher | Markus Hatvan Case Study</title>
 </svelte:head>
 
 <section class="case-study-hero">

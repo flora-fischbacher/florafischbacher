@@ -1,25 +1,6 @@
-<script>
-  import { onMount } from "svelte";
-
-  let SvelteCompareImageSlider;
-
-  onMount(async () => {
-    const module = await import("svelte-compare-image-slider");
-    SvelteCompareImageSlider = module.default;
-  });
-</script>
-
 <svelte:head>
-  <title>Flora Fischbacher - UX Designer</title>
+  <title>Flora Fischbacher | ecosio Case Study</title>
 </svelte:head>
-
-<div class="w-24">
-  <svelte:component
-    this="{SvelteCompareImageSlider}"
-    leftImage="/case-studies/markus-hatvan/markus-hatvan-about.png"
-    rightImage="/homepage/ecosio-monitor.png"
-  />
-</div>
 
 <section class="case-study-hero">
   <div class="hero-container">
@@ -38,7 +19,9 @@
 </section>
 <div class="section-container">
   <div class="text-center">
-    <a href="/" class="btn purple-shadow">Explore Live Prototype ></a>
+    <a href="/" class="btn purple-shadow" target="_blank"
+      >Explore Live Prototype ></a
+    >
   </div>
 </div>
 <section>
@@ -90,7 +73,7 @@
             <li>Test the user journey</li>
             <li>Incorporate feedback from the markeing team</li>
           </ul>
-          <p class="mt-2"><b>Project Manager</b></p>
+          <p class="mt-4"><b>Project Manager</b></p>
           <ul>
             <li>Communicate with the marketing team</li>
             <li>Daily meetings & write tickets for the developer</li>
@@ -125,53 +108,67 @@
       </div>
     </div>
   </div>
-</section>
-
-<section>
-  <div class="py-16 section-container">
-    <div class="grid grid-cols-12 gap-6">
-      <div class="col-span-12 lg:col-span-4">
-        <div class="text-grid">
-          <h3 class="tagline">Step 1</h3>
-          <p><b> Blog Search & Filter</b></p>
-          <p>
-            To improve the usability and user journey of the blog, it was
-            crucial to implement a search filter functionality on the overview
-            page.
-            <br /><br />
-            The new design introduced a section where users were able to filter by
-            blog categories or searchfor certain keywords.
-          </p>
-        </div>
+  <div class="grid grid-cols-12 gap-6 mt-4 md:mt-16">
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 1</h3>
+        <p><b> Blog Search & Filter</b></p>
+        <p>
+          To improve the usability and user journey of the blog, it was crucial
+          to implement a search filter functionality on the overview page.
+          <br /><br />
+          The new design introduced a section where users were able to filter by
+          blog categories or searchfor certain keywords.
+        </p>
       </div>
-      <div class="col-span-12 lg:col-span-4">
-        <div class="text-grid">
-          <h3 class="tagline">Step 2</h3>
-          <p><b> Featured Article Section </b></p>
-          <p>
-            To highlight some of the most important articles, a featured article
-            section was introduced to the blog. The article would also change
-            depending on which category was selected in the filter bar.
-            <br /><br />
-            This section was a great addition as it immediately catches the users
-            eye and helps guide the user to a specific article.
-          </p>
-        </div>
+    </div>
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 2</h3>
+        <p><b> Featured Article Section </b></p>
+        <p>
+          To highlight some of the most important articles, a featured article
+          section was introduced to the blog. The article would also change
+          depending on which category was selected in the filter bar.
+          <br /><br />
+          This section was a great addition as it immediately catches the users eye
+          and helps guide the user to a specific article.
+        </p>
       </div>
-      <div class="col-span-12 lg:col-span-4">
-        <div class="text-grid">
-          <h3 class="tagline">Step 3</h3>
-          <p><b>Blog Post Grid Layout</b></p>
-          <p>
-            The actual grid layout of the blog posts was the final step to the
-            re-design of the overview page. Teaser images were introduced to
-            specific blog posts to help guide readers.
-            <br /><br />
-            To improve the conversion rates, relevant gated assets (white papers
-            etc.) were added throughout the grid. These assets would also change
-            depending on which filter was selected.
-          </p>
-        </div>
+    </div>
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 3</h3>
+        <p><b>Blog Post Grid Layout</b></p>
+        <p>
+          The actual grid layout of the blog posts was the final step to the
+          re-design of the overview page. Teaser images were introduced to
+          specific blog posts to help guide readers.
+          <br /><br />
+          To improve the conversion rates, relevant gated assets (white papers etc.)
+          were added throughout the grid. These assets would also change depending
+          on which filter was selected.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-wrap">
+    <div class="flex flex-wrap items-center mx-auto mt-8 md:mt-16">
+      <div class="flex-wrap w-full md:w-1/2">
+        <h2 class="special-heading">Before</h2>
+        <img
+          src="/case-studies/ecosio/ecosio-blog-overview-old.png"
+          alt="ecosio Blog Before"
+          class="w-full 2xl:w-4/5 purple-shadow md:w-11/12"
+        />
+      </div>
+      <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
+        <h2 class="float-none md:float-right special-heading">After</h2>
+        <img
+          src="/case-studies/ecosio/ecosio-blog-overview-new.png"
+          alt="ecosio Blog After"
+          class="float-none w-full 2xl:w-4/5 purple-shadow md:float-right md:w-11/12"
+        />
       </div>
     </div>
   </div>
@@ -179,78 +176,101 @@
 
 <section class="section-container">
   <div class="flex flex-wrap">
-    <div class="flex flex-wrap-reverse items-center mx-auto mt-8">
-      <div class="flex-wrap items-stretch w-full mt-8 md:w-1/2 md:mt-0">
-        <h3 class="tagline">Phase 2</h3>
-        <h4 class="imageText-heading">Basic Structure of the Website</h4>
-        <p>
-          Once the style guide was in place, the next step was to create a rough
-          mockup of what the homepage and sub pages would look like. The The
-          structure of the website included the following:
-        </p>
-        <ul>
-          <li>Blog teaser</li>
-          <li>Current projects</li>
-          <li>Testimonials</li>
-          <li>Open source contributions</li>
-          <li>contact form</li>
-        </ul>
-      </div>
-      <div class="flex-wrap w-full pl-0 md:w-1/2 md:pl-20 lg:pl-24 2xl:pl-40">
-        <div
-          class="flex flex-row-reverse max-w-4xl 2xl:max-w-3xl bg-brand-purple"
-        >
+    <div class="flex flex-wrap items-center mx-auto mt-8">
+      <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-8 2xl:pr-12">
+        <div class="flex max-w-4xl bg-brand-gold">
           <img
-            src="/case-studies/markus-hatvan/markus-hatvan-about.png"
-            alt="Markus Hatvan About Page"
-            class="image-right-purple"
+            src="/case-studies/ecosio/ecosio-blog-post-showcase.png"
+            alt="ecosio Blog"
+            class="px-5 py-11 2xl:py-20 2xl:px-12"
           />
         </div>
+      </div>
+      <div class="flex-wrap items-stretch w-full pl-0 mt-8 md:w-1/2 md:mt-0">
+        <h3 class="tagline">Phase 2</h3>
+        <h4 class="imageText-heading">Re-Design Blog Posts</h4>
+        <p>
+          The blog overview page was very basic with no way to filter the
+          aticles. Since the traffic on the blog was increasing each month, it
+          was crucial to implement a filter functionality.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-12 gap-6 mt-4 md:mt-16">
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 1</h3>
+        <p><b>Blog Sidebar</b></p>
+        <p>
+          To increase engagement and conversion rates, the new design contained
+          a sidebar showcasing relevant webinars, gated content, and related
+          articles.
+          <br /><br />
+          The sidebar should be sticky so that users could easily find the information
+          while scrolling through the article.
+        </p>
+      </div>
+    </div>
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 2</h3>
+        <p><b>Sticky Table of Contents</b></p>
+        <p>
+          Similar to the blog sidebar, a table of contents was introduced to the
+          blog posts which would improve the user experience.
+          <br /><br />
+          The table of contents would also be sticky and accompany users scrolling
+          through the article. It would also be collapsible meaning that only H2s
+          would be shown until scrolled to the relevant section where it would open
+          to show all sub-headings in that section.
+        </p>
+      </div>
+    </div>
+    <div class="col-span-12 lg:col-span-4">
+      <div class="text-grid">
+        <h3 class="tagline">Step 3</h3>
+        <p><b>Feedback section</b></p>
+        <p>
+          User feedback is one of the most important things to see if the
+          information provided was relevant. Therefore a feedback section was
+          introduced to the end of each blog posts asking visitors for their
+          feedback on the article and website in general.
+          <br /><br />
+          This is crucial to be able to improve the usability even more in the future.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-wrap">
+    <div class="flex flex-wrap items-center mx-auto mt-8 md:mt-16">
+      <div class="flex-wrap w-full md:w-1/2">
+        <h2 class="special-heading">Before</h2>
+        <img
+          src="/case-studies/ecosio/ecosio-blog-post-old.png"
+          alt="ecosio Blog Post Before"
+          class="w-full 2xl:w-4/5 purple-shadow md:w-11/12"
+        />
+      </div>
+      <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
+        <h2 class="float-none md:float-right special-heading">After</h2>
+        <img
+          src="/case-studies/ecosio/ecosio-blog-post-new.png"
+          alt="ecosio Blog Post After"
+          class="float-none w-full 2xl:w-4/5 purple-shadow md:float-right md:w-11/12"
+        />
       </div>
     </div>
   </div>
 </section>
 
-<section class="pb-12 section-container bg-brand-purple">
-  <div class="flex flex-wrap">
-    <div class="flex flex-wrap items-center mx-auto mt-8">
-      <div class="flex-wrap w-full md:w-1/2">
-        <img
-          src="/case-studies/markus-hatvan/markus-hatvan-blog-laptop.png"
-          alt="Markus Hatvan Blog"
-          class="w-full 2xl:w-4/5 md:pr-8"
-        />
-      </div>
-      <div class="flex-wrap items-stretch w-full pl-0 mt-8 md:w-1/2 md:mt-0">
-        <h3 class="tagline-inverted">Phase 3</h3>
-        <h4 class="imageText-heading-inverted">Technical Blog</h4>
-        <p class="text-brand-off-white">
-          The last and most important part of the design process was the blog.
-          It should be easy to navigate with the option to search for and filter
-          the articles.
-          <br /><br />
-          The sidebar enhances user engagement by promoting popular articles, displaying
-          blog categories, and a newsletter subscription form.
-        </p>
-      </div>
-    </div>
-    <div class="flex flex-wrap items-center mx-auto mt-8 md:mt-16">
-      <div class="flex-wrap w-full md:w-1/2">
-        <img
-          src="/case-studies/markus-hatvan/markus-hatvan-blog-post.png"
-          alt="Markus Hatvan Blog"
-          class="w-full 2xl:w-4/5 md:pr-8"
-        />
-      </div>
-      <div class="flex-wrap w-full mt-8 md:w-1/2 md:mt-0">
-        <img
-          src="/case-studies/markus-hatvan/markus-blog-overview.png"
-          alt="Markus Hatvan Blog"
-          class="w-full 2xl:w-4/5 purple-shadow"
-        />
-      </div>
-    </div>
-  </div>
+<section class="section-container">
+  <h2 class="special-heading">Connecting the Dots</h2>
+  <img
+    src="/case-studies/ecosio/ecosio-workflow.png"
+    alt="ecosio customer journey"
+    class="w-full mx-auto"
+  />
 </section>
 
 <style lang="postcss">
@@ -267,5 +287,9 @@
   .btn {
     font-family: "Annie Use Your Telescope", cursive;
     @apply text-2xl bg-brand-purple text-brand-off-white p-4;
+  }
+  .special-heading {
+    font-family: "Annie Use Your Telescope", cursive;
+    @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
 </style>

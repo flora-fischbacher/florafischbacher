@@ -1,7 +1,5 @@
 <svelte:head>
-  <title>Resume</title>
+  <title>Flora Fischbacher | CV</title>
 </svelte:head>
 
-<h1>Resume</h1>
-
-<p>This is the 'about' page. There's not much here.</p>
+<embed src="/files/Flora-Fischbacher-cv.pdf" class="w-full h-screen" />

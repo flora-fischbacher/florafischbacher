@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
   import Icon from "svelte-awesome";
   import { faBars } from "@fortawesome/free-solid-svg-icons";
   import ClickOutside from "svelte-click-outside";
+
+  export let segment: string;
 
   let open = false;
 
@@ -39,13 +41,19 @@
       class:hidden="{!open}"
       class="w-full ml-auto md:flex md:w-auto"
     >
-      <a sveltekit:prefetch href="/" class="nav-link md:inline-block md:mt-0">
+      <a
+        sveltekit:prefetch
+        href="/"
+        class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === undefined}"
+      >
         Home
       </a>
       <a
         sveltekit:prefetch
         href="/portfolio"
         class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === 'portfolio'}"
       >
         Portfolio
       </a>
@@ -53,6 +61,7 @@
         sveltekit:prefetch
         href="/resume"
         class="nav-link md:inline-block md:mt-0"
+        class:nav-link-active="{segment === 'resume'}"
       >
         Resume
       </a>
@@ -74,6 +83,9 @@
   }
 
   .nav-link:hover {
+    @apply text-brand-dust-rose;
+  }
+  .nav-link-active {
     @apply text-brand-dust-rose;
   }
 </style>

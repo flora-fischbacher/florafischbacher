@@ -1,7 +1,3 @@
-<script lang="ts">
-  export let segment: string;
-</script>
-
 <section class="section-container">
   <div class="flex flex-wrap">
     <h2 class="section-heading">Most Recent Work</h2>
@@ -25,11 +21,7 @@
           of his website would be the blog, so this was the most important
           element of the design process.
         </p>
-        <a
-          aria-current="{segment === 'markus-hatvan' ? 'page' : undefined}"
-          href="case-studies/markus-hatvan"
-          class="imageText-button"
-        >
+        <a href="case-studies/markus-hatvan" class="imageText-button">
           View Full Project >
         </a>
       </div>
@@ -48,11 +40,7 @@
           experience by adding improvements like filters, table of contents,
           featured articles & assets, and a sidebar.
         </p>
-        <a
-          aria-current="{segment === 'ecosio' ? 'page' : undefined}"
-          href="case-studies/ecosio"
-          class="imageText-button-inverted"
-        >
+        <a href="case-studies/ecosio" class="imageText-button-inverted">
           View Full Project >
         </a>
       </div>
@@ -93,11 +81,7 @@
           implemented an online ordering service which became a highlight for the
           community.
         </p>
-        <a
-          aria-current="{segment === 'allegria' ? 'page' : undefined}"
-          href="case-studies/allegria"
-          class="imageText-button"
-        >
+        <a href="case-studies/allegria" class="imageText-button">
           View Full Project >
         </a>
       </div>
