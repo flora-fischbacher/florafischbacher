@@ -1,5 +1,9 @@
 <svelte:head>
   <title>Flora Fischbacher | Allegria Case Study</title>
+  <meta
+    name="description"
+    content="This is the case study of Allegria Restaurant, a project I have recently worked on."
+  />
 </svelte:head>
 
 <section class="case-study-hero">
@@ -42,10 +46,10 @@
             Carbondale, Colorado.
             <br /><br />
             The owner, Andreas, was in need of a website where guests could view
-            the menu and daily specials and make an online reservation.
+            the menu and daily specials, and make an online reservation.
             <br /><br />
-            Due to the Covid-19 pandemic, an online ordering system was also supposed
-            to be implemented.
+            Due to the Covid-19 pandemic, an online ordering system was also implemented
+            later on.
           </p>
         </div>
       </div>
@@ -57,8 +61,8 @@
             The aim of this project was to design and build an easy to use
             website using Wordpress.
             <br /><br />
-            To gain more social media presence the goal was to also set up a Facebook
-            and Instagram page.
+            To gain more social media presence the goal was to also set up a professional
+            Facebook and Instagram business page.
           </p>
         </div>
       </div>
@@ -147,6 +151,10 @@
     font-family: "Annie Use Your Telescope", cursive;
     @apply text-2xl bg-brand-dust-rose text-brand-off-white p-4;
   }
+  .btn:hover {
+    @apply bg-brand-rose-btn-hover;
+  }
+
   .special-heading {
     font-family: "Annie Use Your Telescope", cursive;
     @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;

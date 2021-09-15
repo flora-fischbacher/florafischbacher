@@ -3,7 +3,11 @@
 </script>
 
 <svelte:head>
-  <title>Flora Fischbacher - UX Designer</title>
+  <title>Flora Fischbacher | UX Designer</title>
+  <meta
+    name="description"
+    content="Personal website showcasing a portfolio of my work as a UX & web designer."
+  />
 </svelte:head>
 
 <section class="homepage-hero">
@@ -41,7 +45,7 @@
           <h3 class="tagline">Portfolio</h3>
           <p>
             Are you interested in more projects I have designed? Check out my
-            entire portfolio showcasingmore of my work.
+            entire portfolio showcasing more of my work.
           </p>
           <a href="/portfolio" class="imageText-button">Visit Portfolio > </a>
         </div>

@@ -4,6 +4,10 @@
 
 <svelte:head>
   <title>Flora Fischbacher | Portfolio</title>
+  <meta
+    name="description"
+    content="Here you can find my portfolio of projects I have recently been working on."
+  />
 </svelte:head>
 
 <section class="homepage-hero">

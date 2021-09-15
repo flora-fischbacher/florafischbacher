@@ -16,7 +16,7 @@
         <h4 class="imageText-heading">Freelancer Website & Logo</h4>
         <p>
           The goal of this project was to design the logo and initial mockups
-          for Markus’ website. Markus’s vision of his website was to have a
+          for Markus’ website. Markus’ vision of his website was to have a
           simple, clean design which visitors can easily navigate. The highlight
           of his website would be the blog, so this was the most important
           element of the design process.
@@ -73,9 +73,9 @@
           Restaurant Website & Online Ordering System
         </h4>
         <p>
-          The objective of this project was to create the design and develop the
-          website of Allegria. Here the most important elements were the menu,
-          photo gallery, and displaying customer reviews.
+          The objective of this project was to create the design and later
+          develop the website for Allegria. Here the most important elements
+          were the menu, photo gallery, and displaying customer reviews.
           <br /><br />
           Due to restaurant closures caused by the COVID-19 outbreak, we quickly
           implemented an online ordering service which became a highlight for the

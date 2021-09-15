@@ -134,6 +134,8 @@ module.exports = {
         "dust-rose": "#ac7a7f",
         gold: "#d5b59e",
         "off-white": "#f7f8f6",
+        "purple-btn-hover": "#817d98",
+        "rose-btn-hover": "#a77075",
       },
     },
   },
