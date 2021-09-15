@@ -8,34 +8,34 @@
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
+<section class="section-container">
+  <h1><b>{status}</b> Page not found</h1>
+  <p class="text-center imageText-heading">
+    The page you are looking for could not be found
+  </p>
 
-<h1>{status}</h1>
-
-<p>{error.message}</p>
+  <div class="text-center">
+    <a href="/" class="btn purple-shadow">Back to homepage ></a>
+  </div>
+</section>
 
 {#if dev && error.stack}
   <pre>{error.stack}</pre>
 {/if}
 
 <style>
-  h1,
-  p {
-    margin: 0 auto;
-  }
-
   h1 {
-    font-size: 2.8em;
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
+    font-family: "Annie Use Your Telescope", cursive;
+    @apply text-brand-brown text-center text-5xl mb-9;
   }
-
+  .btn {
+    font-family: "Annie Use Your Telescope", cursive;
+    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
+  }
+  .btn:hover {
+    @apply bg-brand-purple-btn-hover;
+  }
   p {
-    margin: 1em auto;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      font-size: 4em;
-    }
+    @apply mb-12;
   }
 </style>

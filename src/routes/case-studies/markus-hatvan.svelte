@@ -1,5 +1,9 @@
 <svelte:head>
   <title>Flora Fischbacher | Markus Hatvan Case Study</title>
+  <meta
+    name="description"
+    content="This is the case study of Markus Hatvan, a freelancer who was in need of a logo and website."
+  />
 </svelte:head>
 
 <section class="case-study-hero">
@@ -31,9 +35,9 @@
           <p>
             Markus Hatvan is a freelance web developer and technical content
             writer. He was in need of an informational website to offer his
-            services and also a blog for his technical articles.<br /><br />
-            Additionally Markus needed a design for a blog which would be the resource
-            hub for other web developers
+            services. Additionally Markus needed a design for a blog to showcase
+            his technical articles which would become the resource hub for other
+            web developers
           </p>
         </div>
       </div>
@@ -59,8 +63,8 @@
           <h3 class="tagline">My Role</h3>
           <p><b>Product Designer</b></p>
           <p>
-            For this project my role was to create a styleguide and based on the
-            brand identity. Using the styleguide I continued on to design the
+            For this project my role was to create a style guide based on the
+            brand identity. Using the style guide I continued on to design the
             mockups for the MPV of the website.
           </p>
         </div>
@@ -88,7 +92,7 @@
           The first step of the project was to create a logo and styleguide
           which would be used throughout the rest of the project.
           <br /><br />
-          In the end we went with cool colors, simple designs and an eas to read
+          In the end we went with cool colors, simple designs and an easy to read
           font as the website would contain a large amount of technical information.
         </p>
       </div>
@@ -112,7 +116,7 @@
           <li>Current projects</li>
           <li>Testimonials</li>
           <li>Open source contributions</li>
-          <li>contact form</li>
+          <li>Contact form</li>
         </ul>
       </div>
       <div class="flex-wrap w-full pl-0 md:w-1/2 md:pl-20 lg:pl-24 2xl:pl-40">

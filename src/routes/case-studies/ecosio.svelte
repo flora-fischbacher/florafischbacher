@@ -1,5 +1,9 @@
 <svelte:head>
   <title>Flora Fischbacher | ecosio Case Study</title>
+  <meta
+    name="description"
+    content="This is the case study of ecosio, a project I have recently worked on and the company I was previously employed at."
+  />
 </svelte:head>
 
 <section class="case-study-hero">
@@ -101,9 +105,10 @@
         <h3 class="tagline">Phase 1</h3>
         <h4 class="imageText-heading">Re-Design the Blog Overview</h4>
         <p>
-          The blog overview page was very basic with no way to filter the
-          aticles. Since the traffic on the blog was increasing each month, it
-          was crucial to implement a filter functionality.
+          The existing blog overview page was very basic with no option to
+          filter the aticles. Since the traffic on the blog was increasing each
+          month, it was crucial to implement a filter functionality to make sure
+          users recieved articles with the relevant topic.
         </p>
       </div>
     </div>
@@ -118,7 +123,8 @@
           to implement a search filter functionality on the overview page.
           <br /><br />
           The new design introduced a section where users were able to filter by
-          blog categories or searchfor certain keywords.
+          blog categories, or search for certain keywords by using the full-text
+          search.
         </p>
       </div>
     </div>
@@ -129,7 +135,8 @@
         <p>
           To highlight some of the most important articles, a featured article
           section was introduced to the blog. The article would also change
-          depending on which category was selected in the filter bar.
+          depending on which category was selected in the filter bar, ensuring
+          the featured article is always relevant to the topic selected.
           <br /><br />
           This section was a great addition as it immediately catches the users eye
           and helps guide the user to a specific article.
@@ -141,13 +148,15 @@
         <h3 class="tagline">Step 3</h3>
         <p><b>Blog Post Grid Layout</b></p>
         <p>
-          The actual grid layout of the blog posts was the final step to the
+          The actual grid layout of the blog posts was the final step in the
           re-design of the overview page. Teaser images were introduced to
           specific blog posts to help guide readers.
           <br /><br />
           To improve the conversion rates, relevant gated assets (white papers etc.)
           were added throughout the grid. These assets would also change depending
           on which filter was selected.
+          <br /><br />
+          <b>Check out the before and after images below!</b>
         </p>
       </div>
     </div>
@@ -190,9 +199,15 @@
         <h3 class="tagline">Phase 2</h3>
         <h4 class="imageText-heading">Re-Design Blog Posts</h4>
         <p>
-          The blog overview page was very basic with no way to filter the
-          aticles. Since the traffic on the blog was increasing each month, it
-          was crucial to implement a filter functionality.
+          Once the blog overview was complete, the next crucial step was to
+          re-design the blog posts themselves. The original layout only
+          consisted of the article content, which was quite difficult to read as
+          all headings looked very similar.
+          <br /><br />
+          The new design fixed the heading issue and also included elements to improve
+          the user experience and keep the user engaged after completing the article.
+          <br /><br />
+          Check below to find out which elements were added to the blog posts!
         </p>
       </div>
     </div>
@@ -209,6 +224,9 @@
           <br /><br />
           The sidebar should be sticky so that users could easily find the information
           while scrolling through the article.
+          <br /><br />
+          After this simple feature was implemented, we immediately saw a spike in
+          conversions!
         </p>
       </div>
     </div>
@@ -221,9 +239,9 @@
           blog posts which would improve the user experience.
           <br /><br />
           The table of contents would also be sticky and accompany users scrolling
-          through the article. It would also be collapsible meaning that only H2s
-          would be shown until scrolled to the relevant section where it would open
-          to show all sub-headings in that section.
+          through the article. To keep it compact it would also be collapsible meaning
+          that only H2s would be shown until scrolled to the relevant section where
+          it would open to show all sub-headings in that section.
         </p>
       </div>
     </div>
@@ -232,12 +250,15 @@
         <h3 class="tagline">Step 3</h3>
         <p><b>Feedback section</b></p>
         <p>
-          User feedback is one of the most important things to see if the
-          information provided was relevant. Therefore a feedback section was
-          introduced to the end of each blog posts asking visitors for their
-          feedback on the article and website in general.
+          User feedback is one of the most important features in any design, it
+          is the best way to determine if the information you provided was
+          relevant. Therefore a feedback section was introduced to the end of
+          each blog posts asking visitors for their feedback on the article and
+          website in general.
           <br /><br />
           This is crucial to be able to improve the usability even more in the future.
+          <br /><br />
+          Check out the before and after images below!
         </p>
       </div>
     </div>
@@ -287,6 +308,9 @@
   .btn {
     font-family: "Annie Use Your Telescope", cursive;
     @apply text-2xl bg-brand-purple text-brand-off-white p-4;
+  }
+  .btn:hover {
+    @apply bg-brand-purple-btn-hover;
   }
   .special-heading {
     font-family: "Annie Use Your Telescope", cursive;
