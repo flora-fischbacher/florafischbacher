@@ -1,13 +1,23 @@
-<script>
-  export let status;
-  export let error;
+<script context="module">
+  export function load({ error, status }: ErrorLoadInput) {
+    return {
+      props: { error, status },
+    };
+  }
+</script>
 
-  const dev = process.env.NODE_ENV === "development";
+<script lang="ts">
+  import { isDev } from '../stores';
+  import type { ErrorLoadInput } from '@sveltejs/kit';
+
+  export let error: Error;
+  export let status: number;
 </script>
 
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
+
 <section class="section-container">
   <h1><b>{status}</b> Page not found</h1>
   <p class="text-center imageText-heading">
@@ -15,21 +25,21 @@
   </p>
 
   <div class="text-center">
-    <a href="/" class="btn purple-shadow">Back to homepage ></a>
+    <a href="/" class="btn purple-shadow">Back to homepage &gt;</a>
   </div>
 </section>
 
-{#if dev && error.stack}
+{#if $isDev && error.stack}
   <pre>{error.stack}</pre>
 {/if}
 
-<style>
+<style lang="postcss">
   h1 {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-brown text-center text-5xl mb-9;
   }
   .btn {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-2xl bg-brand-purple text-brand-off-white p-4;
   }
   .btn:hover {

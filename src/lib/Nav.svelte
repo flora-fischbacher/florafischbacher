@@ -1,9 +1,11 @@
 <script lang="ts">
-  import Icon from "svelte-awesome";
-  import { faBars } from "@fortawesome/free-solid-svg-icons";
-  import ClickOutside from "svelte-click-outside";
-  export let segment: string;
+  import Icon from 'svelte-awesome';
+  import { faBars } from '@fortawesome/free-solid-svg-icons';
+  import ClickOutside from 'svelte-click-outside';
+  import { page } from '$app/stores';
+
   let open = false;
+
   const toggleHamburgerMenu = () => {
     open = !open;
   };
@@ -42,7 +44,7 @@
         sveltekit:prefetch
         href="/"
         class="nav-link md:inline-block md:mt-0"
-        class:nav-link-active="{segment === undefined}"
+        class:nav-link-active="{$page.path === '/'}"
       >
         Home
       </a>
@@ -50,7 +52,7 @@
         sveltekit:prefetch
         href="/portfolio"
         class="nav-link md:inline-block md:mt-0"
-        class:nav-link-active="{segment === 'portfolio'}"
+        class:nav-link-active="{$page.path === '/portfolio'}"
       >
         Portfolio
       </a>
@@ -58,7 +60,7 @@
         sveltekit:prefetch
         href="/resume"
         class="nav-link md:inline-block md:mt-0"
-        class:nav-link-active="{segment === 'resume'}"
+        class:nav-link-active="{$page.path === '/resume'}"
       >
         Resume
       </a>
@@ -75,7 +77,7 @@
   }
   .nav-link {
     @apply block text-brand-brown mt-4 mr-4 text-2xl no-underline p-4;
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
   }
   .nav-link:hover {
     @apply text-brand-dust-rose;

@@ -1,5 +1,5 @@
 <script>
-  import { threeDimensionalEffect } from "../threeDimensionalEffect.js";
+  import { threeDimensionalEffect } from '../threeDimensionalEffect';
 </script>
 
 <svelte:head>
@@ -26,7 +26,7 @@
 <section class="my-24 lg:my-48">
   <h2 class="text-center h4-uppercase-inverted">ecosio</h2>
   <h3 class="text-center section-text">Blog re-design</h3>
-  <a href="case-studies/ecosio" sapper:prefetch class="no-underline">
+  <a href="case-studies/ecosio" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
       <div class="relative w-full md:px-6">
         <img
@@ -44,7 +44,7 @@
 <section class="my-24 lg:my-48">
   <h2 class="text-center h4-uppercase-inverted">Markus Hatvan</h2>
   <h3 class="text-center section-text">Complete website design</h3>
-  <a href="case-studies/markus-hatvan" sapper:prefetch class="no-underline">
+  <a href="case-studies/markus-hatvan" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
       <div class="relative w-full md:px-6">
         <img
@@ -62,7 +62,7 @@
 <section class="my-24 lg:my-48">
   <h2 class="text-center h4-uppercase-inverted">Allegria Restaurant</h2>
   <h3 class="text-center section-text">Social media & website design</h3>
-  <a href="case-studies/allegria" sapper:prefetch class="no-underline">
+  <a href="case-studies/allegria" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
       <div class="relative w-full md:px-6">
         <img
@@ -79,7 +79,7 @@
 
 <style lang="postcss">
   .homepage-hero {
-    background-image: url("/portfolio-bg.png");
+    background-image: url('/portfolio-bg.png');
     @apply flex items-center h-full bg-center bg-cover md:py-11 lg:py-20 2xl:py-28;
   }
   .hero-container {
@@ -90,11 +90,11 @@
     @apply text-brand-off-white text-xl text-center;
   }
   .box-bg {
-    background-image: url("/flower-bg.png");
+    background-image: url('/flower-bg.png');
     @apply bg-no-repeat bg-center py-32;
   }
   .section-text {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-brown text-4xl;
   }
   .animated-img {
