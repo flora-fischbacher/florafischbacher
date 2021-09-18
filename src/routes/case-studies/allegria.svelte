@@ -148,7 +148,7 @@
     @apply text-left list-disc list-inside ml-8;
   }
   .btn {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-2xl bg-brand-dust-rose text-brand-off-white p-4;
   }
   .btn:hover {
@@ -156,7 +156,7 @@
   }
 
   .special-heading {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
   .img-gold {

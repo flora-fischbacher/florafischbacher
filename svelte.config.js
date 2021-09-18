@@ -1,20 +1,26 @@
-const sveltePreprocess = require("svelte-preprocess");
-const postcss = require("./postcss.config");
+import sveltePreprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
 
-const createPreprocessors = ({ sourceMap }) => [
+const preprocess = [
   sveltePreprocess({
     defaults: {
-      script: "typescript",
-      style: "postcss",
+      script: 'typescript',
+      style: 'postcss',
     },
-    sourceMap,
-    postcss,
-    preserve: ["ld+json"],
+    postcss: true,
+    preserve: ['ld+json'],
   }),
 ];
 
-module.exports = {
-  createPreprocessors,
-  // Options for `svelte-check` and the VS Code extension
-  preprocess: createPreprocessors({ sourceMap: true }),
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+  // options passed to svelte.preprocess (https://svelte.dev/docs#svelte_preprocess)
+  preprocess: preprocess,
+  kit: {
+    adapter: adapter(),
+    target: '#svelte',
+    trailingSlash: 'ignore',
+  },
 };
+
+export default config;

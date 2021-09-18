@@ -1,10 +1,10 @@
 <script>
-  export let segment;
+  import { page } from '$app/stores';
 </script>
 
 <footer class="pb-24">
   <div class="w-2/3 mx-auto md:w-1/2">
-    <a aria-current="{segment === undefined ? 'page' : undefined}" href=".">
+    <a aria-current="{$page.path === '/' ? 'page' : undefined}" href="/">
       <img
         src="/flora-logo.png"
         alt="Flora Fischbacher Logo"

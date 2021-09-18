@@ -24,8 +24,8 @@
 <div class="section-container">
   <div class="text-center">
     <a href="/" class="btn purple-shadow" target="_blank"
-      >Explore Live Prototype ></a
-    >
+      >Explore Live Prototype &gt;
+    </a>
   </div>
 </div>
 <section>
@@ -306,14 +306,14 @@
     @apply text-left list-disc list-inside ml-8;
   }
   .btn {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-2xl bg-brand-purple text-brand-off-white p-4;
   }
   .btn:hover {
     @apply bg-brand-purple-btn-hover;
   }
   .special-heading {
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
 </style>

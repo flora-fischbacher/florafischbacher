@@ -1,5 +1,5 @@
 <script>
-  import MostRecentWork from "../components/MostRecentWork.svelte";
+  import MostRecentWork from '$lib/MostRecentWork.svelte';
 </script>
 
 <svelte:head>
@@ -47,7 +47,9 @@
             Are you interested in more projects I have designed? Check out my
             entire portfolio showcasing more of my work.
           </p>
-          <a href="/portfolio" class="imageText-button">Visit Portfolio > </a>
+          <a href="/portfolio" class="imageText-button" sveltekit:prefetch
+            >Visit Portfolio &gt;
+          </a>
         </div>
       </div>
       <div class="col-span-12 lg:col-span-4">
@@ -58,7 +60,9 @@
             Check out my CV for a complete list of my skills, design tools I
             use, and great companies I have worked for!
           </p>
-          <a href="/resume" class="imageText-button">View CV > </a>
+          <a href="/resume" class="imageText-button" sveltekit:prefetch
+            >View CV &gt;
+          </a>
         </div>
       </div>
       <div class="col-span-12 lg:col-span-4">
@@ -84,7 +88,7 @@
 
 <style lang="postcss">
   .homepage-hero {
-    background-image: url("/homepage/homepage-bg.png");
+    background-image: url('/homepage/homepage-bg.png');
     @apply flex items-center h-full bg-center bg-cover md:py-11 lg:py-20 2xl:py-28;
   }
   .hero-container {
