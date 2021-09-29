@@ -95,7 +95,7 @@
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-8 2xl:pr-12">
         <div class="flex max-w-4xl bg-brand-purple">
           <img
-            src="/homepage/ecosio-monitor.png"
+            src="/case-studies/ecosio/ecosio-monitor-sm.png"
             alt="ecosio Blog"
             class="px-5 py-11 2xl:py-20 2xl:px-12"
           />
