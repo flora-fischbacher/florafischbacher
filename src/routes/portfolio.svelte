@@ -24,7 +24,7 @@
 </section>
 
 <section class="my-24 lg:my-48">
-  <h2 class="text-center h4-uppercase-inverted">ecosio</h2>
+  <h2 class="text-center imageText-heading">ecosio</h2>
   <h3 class="text-center section-text">Blog re-design</h3>
   <a href="case-studies/ecosio" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
@@ -42,7 +42,7 @@
 </section>
 
 <section class="my-24 lg:my-48">
-  <h2 class="text-center h4-uppercase-inverted">Markus Hatvan</h2>
+  <h2 class="text-center company-name">Markus Hatvan</h2>
   <h3 class="text-center section-text">Complete website design</h3>
   <a href="case-studies/markus-hatvan" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
@@ -60,7 +60,7 @@
 </section>
 
 <section class="my-24 lg:my-48">
-  <h2 class="text-center h4-uppercase-inverted">Allegria Restaurant</h2>
+  <h2 class="text-center company-name">Allegria Restaurant</h2>
   <h3 class="text-center section-text">Social media & website design</h3>
   <a href="case-studies/allegria" sveltekit:prefetch class="no-underline">
     <div class="flex md:items-center">
@@ -75,6 +75,23 @@
       </div>
     </div>
   </a>
+</section>
+
+<section class="my-24 lg:my-48">
+  <h3 class="text-center tagline mb-5">Coming soon...</h3>
+  <h2 class="text-center company-name">Alterra Aspen</h2>
+  <h3 class="text-center section-text">Social media & website design</h3>
+  <div class="flex md:items-center">
+    <div class="relative w-full md:px-6">
+      <img
+        src="/case-studies/alterra/alterra-preview-img.png"
+        alt="Alterra Aspen"
+        class="will-change animated-img"
+        use:threeDimensionalEffect
+      />
+      <div class="bg-brand-gold background-rectangle"></div>
+    </div>
+  </div>
 </section>
 
 <style lang="postcss">
@@ -95,8 +112,12 @@
   }
   .section-text {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-4xl;
+    @apply text-brand-brown text-3xl;
   }
+  .company-name {
+    @apply text-brand-brown text-3xl mb-5;
+  }
+
   .animated-img {
     @apply w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5;
   }
