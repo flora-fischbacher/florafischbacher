@@ -38,7 +38,6 @@
     "svelte": "^3.17.3",
     "svelte-awesome": "^2.3.2",
     "svelte-check": "^2.2.4",
-    "svelte-click-outside": "^1.0.0",
     "svelte-preprocess": "^4.7.4",
     "tailwindcss": "^2.2.7",
     "tslib": "^2.3.1",

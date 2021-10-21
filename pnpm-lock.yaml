@@ -20,7 +20,6 @@ specifiers:
   svelte: ^3.17.3
   svelte-awesome: ^2.3.2
   svelte-check: ^2.2.4
-  svelte-click-outside: ^1.0.0
   svelte-preprocess: ^4.7.4
   tailwindcss: ^2.2.7
   tslib: ^2.3.1
@@ -46,7 +45,6 @@ devDependencies:
   svelte: 3.42.1
   svelte-awesome: 2.3.2
   svelte-check: 2.2.6_postcss@8.3.6+svelte@3.42.1
-  svelte-click-outside: 1.0.0
   svelte-preprocess: 4.7.4_af70e9bfcfde90ef182a681dd8abfdf9
   tailwindcss: 2.2.7_7b69a43ec4689fa7484dee35f79a7806
   tslib: 2.3.1
@@ -2812,10 +2810,6 @@ packages:
       - sass
       - stylus
       - sugarss
-    dev: true
-
-  /svelte-click-outside/1.0.0:
-    resolution: {integrity: sha512-TVDn5Vd8L0WI0Y9BFh/2I7judkIqYCbFKkGwGl/f8D0inwBFNyU0weKhrbJY4VQtYnWriq0NPl+mIYGisgALbw==}
     dev: true
 
   /svelte-hmr/0.14.7_svelte@3.42.1:
