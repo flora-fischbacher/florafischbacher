@@ -1,8 +1,8 @@
 <script lang="ts">
   import Icon from 'svelte-awesome';
   import { faBars } from '@fortawesome/free-solid-svg-icons';
-  import ClickOutside from 'svelte-click-outside';
   import { page } from '$app/stores';
+  import { clickOutside } from '../clickOutside';
 
   let open = false;
 
@@ -21,19 +21,25 @@
         href="/"
         class="block mt-0 text-xl font-semibold tracking-tight md:inline-block"
       >
-        <img class="w-3/4" src="/flora-logo.png" alt="Flora Fischbacher" />
+        <img
+          class="h-16 sm:h-20"
+          src="/flora-logo.png"
+          alt="Flora Fischbacher"
+        />
       </a>
     </div>
-    <div class="ml-auto md:hidden">
-      <ClickOutside on:clickoutside="{() => (open = false)}">
-        <button
-          class="flex items-center px-3 py-2 rounded-sm bg-brand-dust-rose text-brand-off-white hover:bg-brand-brown"
-          aria-label="Hamburger menu"
-          on:click="{() => toggleHamburgerMenu()}"
-        >
-          <Icon data="{faBars}" class="text-xl" />
-        </button>
-      </ClickOutside>
+    <div
+      class="ml-auto md:hidden"
+      use:clickOutside
+      on:clickOutside="{() => (open = false)}"
+    >
+      <button
+        class="flex items-center px-3 py-2 rounded-sm bg-brand-dust-rose text-brand-off-white hover:bg-brand-brown"
+        aria-label="Hamburger menu"
+        on:click="{toggleHamburgerMenu}"
+      >
+        <Icon data="{faBars}" class="text-xl" />
+      </button>
     </div>
     <nav
       aria-label="Header navigation"
