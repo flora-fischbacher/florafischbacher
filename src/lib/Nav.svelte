@@ -36,7 +36,7 @@
       <button
         class="flex items-center px-3 py-2 rounded-sm bg-brand-dust-rose text-brand-off-white hover:bg-brand-brown"
         aria-label="Hamburger menu"
-        on:click="{() => toggleHamburgerMenu()}"
+        on:click="{toggleHamburgerMenu}"
       >
         <Icon data="{faBars}" class="text-xl" />
       </button>
