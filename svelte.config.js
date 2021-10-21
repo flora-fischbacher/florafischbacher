@@ -3,10 +3,6 @@ import adapter from '@sveltejs/adapter-static';
 
 const preprocess = [
   sveltePreprocess({
-    defaults: {
-      script: 'typescript',
-      style: 'postcss',
-    },
     postcss: true,
     preserve: ['ld+json'],
   }),

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import MostRecentWork from '$lib/MostRecentWork.svelte';
 </script>
 
