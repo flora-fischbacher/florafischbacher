@@ -35,9 +35,9 @@
           <p>
             Markus Hatvan is a freelance web developer and technical content
             writer. He was in need of an informational website to offer his
-            services. Additionally Markus needed a design for a blog to showcase
-            his technical articles which would become the resource hub for other
-            web developers
+            services. Additionally, Markus needed a design for a blog to
+            showcase his technical articles which would become the resource hub
+            for other web developers.
           </p>
         </div>
       </div>
@@ -61,11 +61,11 @@
             class="grid-icon"
           />
           <h3 class="tagline">My Role</h3>
-          <p><b>Product Designer</b></p>
+          <p><b>UX/UI Designer</b></p>
           <p>
-            For this project my role was to create a style guide based on the
-            brand identity. Using the style guide I continued on to design the
-            mockups for the MPV of the website.
+            For this project, my role was to create a style guide based on the
+            brand identity. Using the style guide, I continued on to design the
+            mock-ups for the MPV of the website.
           </p>
         </div>
       </div>
@@ -89,11 +89,11 @@
         <h3 class="tagline">Phase 1</h3>
         <h4 class="imageText-heading">Logo & Style Guide</h4>
         <p>
-          The first step of the project was to create a logo and styleguide
+          The first step of the project was to create a logo and style guide
           which would be used throughout the rest of the project.
           <br /><br />
-          In the end we went with cool colors, simple designs and an easy to read
-          font as the website would contain a large amount of technical information.
+          We went with cool colors, simple designs and an easy-to-read fonts because
+          the website would contain a large amount of technical information.
         </p>
       </div>
     </div>
@@ -108,7 +108,7 @@
         <h4 class="imageText-heading">Basic Structure of the Website</h4>
         <p>
           Once the style guide was in place, the next step was to create a rough
-          mockup of what the homepage and sub pages would look like. The The
+          mock-up of what the homepage and sub-pages would look like. The
           structure of the website included the following:
         </p>
         <ul>
@@ -150,7 +150,7 @@
         <p class="text-brand-off-white">
           The last and most important part of the design process was the blog.
           It should be easy to navigate with the option to search for and filter
-          the articles.
+          articles.
           <br /><br />
           The sidebar enhances user engagement by promoting popular articles, displaying
           blog categories, and a newsletter subscription form.

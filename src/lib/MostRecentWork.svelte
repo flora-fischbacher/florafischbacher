@@ -16,10 +16,10 @@
         <h4 class="imageText-heading">Freelancer Website & Logo</h4>
         <p>
           The goal of this project was to design the logo and initial mockups
-          for Markus’ website. Markus’ vision of his website was to have a
-          simple, clean design which visitors can easily navigate. The highlight
-          of his website would be the blog, so this was the most important
-          element of the design process.
+          for Markus’ website. His vision was for the website to have a simple,
+          clean design which is easy for visitors to navigate. The main feature
+          of his website would be the blog, designing this was the most
+          important step of the process.<br /><br /> Check out the full project below!
         </p>
         <a
           href="/case-studies/markus-hatvan"
@@ -39,10 +39,11 @@
         <h3 class="tagline-inverted">ecosio</h3>
         <h4 class="imageText-heading-inverted">Blog Re-Design</h4>
         <p class="p-inverted">
-          A complete re-design of the existing blog. The objective of the
-          project was to enhance the exisitng design and improve the user
-          experience by adding improvements like filters, table of contents,
-          featured articles & assets, and a sidebar.
+          The objective of this project was to enhance the exisitng design of
+          the blog to improve the user experience. This was done by adding
+          improvements like filters, table of contents, featured articles &
+          assets, and a sidebar.<br /><br /> Click the link below to see the before
+          and after.
         </p>
         <a
           href="/case-studies/ecosio"
@@ -81,13 +82,13 @@
           Restaurant Website & Online Ordering System
         </h4>
         <p>
-          The objective of this project was to create the design and later
-          develop the website for Allegria. Here the most important elements
-          were the menu, photo gallery, and displaying customer reviews.
+          The objective of this project was to design and develop the website
+          for Allegria. As it is a restaurant website, the most important design
+          elements were the menu, photo gallery, and displaying customer
+          reviews.
           <br /><br />
-          Due to restaurant closures caused by the COVID-19 outbreak, we quickly
-          implemented an online ordering service which became a highlight for the
-          community.
+          Due to restaurant closures caused by the COVID-19 outbreak, we also implemented
+          an online ordering service which became a highlight for the community.
         </p>
         <a
           href="/case-studies/allegria"

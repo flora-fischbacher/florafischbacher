@@ -58,11 +58,11 @@
           <img src="/icons/ballot.svg" alt="Ballot Icon" class="grid-icon" />
           <h3 class="tagline">Goal</h3>
           <p>
-            The aim of this project was to design and build an easy to use
-            website using Wordpress.
+            The aim of this project was to design and build an easy-to-use
+            website using WordPress.
             <br /><br />
-            To gain more social media presence the goal was to also set up a professional
-            Facebook and Instagram business page.
+            To gain a larger social media presence, the goal was to also set up a
+            professional Facebook and Instagram business page.
           </p>
         </div>
       </div>
