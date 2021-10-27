@@ -14,10 +14,13 @@
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full md:w-1/2">
       <h1 class="fancy-font-inverted">Hi I’m Flora.</h1>
-      <h4 class="text-center h4-uppercase">Website | Design | Marketing</h4>
+      <h4 class="text-center h4-uppercase">
+        Web design | UX Design | Marketing Automation
+      </h4>
       <p class="hero-text">
-        A product designer located in Vienna Austria with a focus on user
-        experience and design.
+        I’m a junior UX/Web designer located in Vienna, Austria. Check out my
+        online portfolio where you can explore the projects I have recently been
+        working on.
       </p>
     </div>
     <div class="flex items-stretch w-full md:w-1/2">
@@ -44,7 +47,7 @@
           />
           <h3 class="tagline">Portfolio</h3>
           <p>
-            Are you interested in more projects I have designed? Check out my
+            Are you interested in other projects I have designed? Check out my
             entire portfolio showcasing more of my work.
           </p>
           <a href="/portfolio" class="imageText-button" sveltekit:prefetch

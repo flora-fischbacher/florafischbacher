@@ -16,8 +16,8 @@
       <h1 class="fancy-font-inverted">Portfolio</h1>
       <h4 class="text-center h4-uppercase">Website | Design | Marketing</h4>
       <p class="hero-text">
-        Check out my portfolio to view all the projects I have recently worked
-        on!
+        Take a look at my portfolio to see some of the projects I have recently
+        worked on.
       </p>
     </div>
   </div>
