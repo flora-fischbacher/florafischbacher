@@ -43,8 +43,7 @@
     </div>
     <nav
       aria-label="Header navigation"
-      class:hidden="{!open}"
-      class="w-full ml-auto md:flex md:w-auto"
+      class="w-full ml-auto md:flex md:w-auto {!open ? 'hidden' : ''}"
     >
       <a
         sveltekit:prefetch
