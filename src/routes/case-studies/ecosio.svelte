@@ -9,7 +9,7 @@
 <section class="case-study-hero">
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full mt-16">
-      <h4 class="text-lg fancy-font-inverted">Case Study</h4>
+      <h4 class="text-lg fancy-font-inverted text-center">Case Study</h4>
       <h1 class="text-3xl text-center p-inverted">
         Blog Re-design to Enhance User Experience & Increase Engagement
       </h1>
@@ -38,7 +38,7 @@
             alt="Pencil Icon"
             class="grid-icon"
           />
-          <h3 class="tagline">Problem</h3>
+          <h3 class="tagline text-center">Problem</h3>
           <p>
             After the initial launch of ecosio’s website, the blog was
             functional but very basic. There were crucial features missing which
@@ -51,7 +51,7 @@
       <div class="col-span-12 lg:col-span-4">
         <div class="card">
           <img src="/icons/ballot.svg" alt="Ballot Icon" class="grid-icon" />
-          <h3 class="tagline">Goal</h3>
+          <h3 class="tagline text-center">Goal</h3>
           <p>
             The goal of this project was to create a design which would enhance
             the user experience and drive up the conversions. The new features
@@ -73,11 +73,12 @@
             alt="Envelope Icon"
             class="grid-icon"
           />
-          <h3 class="tagline">My Role</h3>
+          <h3 class="tagline text-center">My Role</h3>
           <p><b>UX Designer</b></p>
           <ul>
-            <li>Research ideas</li>
-            <li>Design the new blog layout</li>
+            <li>Research market trends</li>
+            <li>Competitor analysis & benchmarking</li>
+            <li>Prototype the new blog layout & design</li>
             <li>Test the user journey</li>
             <li>Incorporate feedback from the markeing team</li>
           </ul>
@@ -97,11 +98,11 @@
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-8 2xl:pr-12">
-        <div class="flex max-w-4xl bg-brand-purple">
+        <div class="flex max-w-4xl">
           <img
-            src="/case-studies/ecosio/ecosio-monitor-sm.png"
+            src="/case-studies/ecosio/brainstorming.jpg"
             alt="ecosio Blog"
-            class="px-5 py-11 2xl:py-20 2xl:px-12"
+            class="mx-auto px-5 py-11 2xl:py-20 2xl:px-12"
           />
         </div>
       </div>
@@ -113,7 +114,10 @@
           filter the articles, a very important feature to help users find what
           they are looking for. Since the traffic on the blog was increasing
           each month, it was crucial to implement a filter functionality to make
-          sure users received articles on the relevant topic.
+          sure users received articles on the relevant topic.<br /><br />
+          After conducting a competitor analysis and researching market trends, we
+          were able to begin with the prototyping process of re-designing the blog
+          overview page.
         </p>
       </div>
     </div>

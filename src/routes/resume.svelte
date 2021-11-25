@@ -6,4 +6,4 @@
   />
 </svelte:head>
 
-<embed src="/files/Flora-Fischbacher-cv.pdf" class="w-full h-screen" />
+<embed src="/files/Flora-Fischbacher-CV.pdf" class="w-full h-screen" />

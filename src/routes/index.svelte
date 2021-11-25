@@ -14,7 +14,7 @@
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full md:w-1/2">
       <h1 class="fancy-font-inverted">Hi I’m Flora.</h1>
-      <h4 class="text-center h4-uppercase">
+      <h4 class="h4-uppercase">
         Web design | UX Design | Marketing Automation
       </h4>
       <p class="hero-text">
@@ -99,6 +99,6 @@
     box-shadow: 0 2px 22px 4px rgba(0, 0, 0, 0.2);
   }
   .hero-text {
-    @apply text-brand-off-white text-xl text-center;
+    @apply text-brand-off-white text-xl text-left;
   }
 </style>
