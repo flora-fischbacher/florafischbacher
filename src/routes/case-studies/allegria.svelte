@@ -9,7 +9,7 @@
 <section class="case-study-hero">
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full mt-16">
-      <h4 class="text-lg fancy-font-inverted">Case Study</h4>
+      <h4 class="text-lg fancy-font-inverted text-center">Case Study</h4>
       <h1 class="text-3xl text-center p-inverted">
         Website for Allegria Restaurant
       </h1>
