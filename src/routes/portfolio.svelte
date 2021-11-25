@@ -75,7 +75,7 @@
           class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
           use:threeDimensionalEffect
         />
-        <div class="w-full bg-brand-gold background-rectangle"></div>
+        <div class="w-full bg-brand-dust-rose background-rectangle"></div>
       </div>
     </div>
   </a>
@@ -93,7 +93,7 @@
           class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
           use:threeDimensionalEffect
         />
-        <div class="bg-brand-dust-rose background-rectangle"></div>
+        <div class="bg-brand-gold background-rectangle"></div>
       </div>
     </div>
   </a>
@@ -111,7 +111,7 @@
         class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
         use:threeDimensionalEffect
       />
-      <div class="bg-brand-gold background-rectangle"></div>
+      <div class="bg-brand-dust-rose background-rectangle"></div>
     </div>
   </div>
 </section>

@@ -276,7 +276,7 @@
 
 <section class="section-container">
   <h2 class="special-heading text-center mx-auto">
-    Final desing is coming soon...
+    Final design is coming soon...
   </h2>
   <p class="text-center">
     We re currently working on the prototypes and mockups, check back soon to
