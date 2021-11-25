@@ -45,12 +45,15 @@
             alt="Pencil Icon"
             class="grid-icon"
           />
-          <h3 class="tagline">Portfolio</h3>
-          <p>
+          <h3 class="tagline text-center">Portfolio</h3>
+          <p class="text-center">
             Are you interested in other projects I have designed? Check out my
             entire portfolio showcasing more of my work.
           </p>
-          <a href="/portfolio" class="imageText-button" sveltekit:prefetch
+          <a
+            href="/portfolio"
+            class="imageText-button text-center"
+            sveltekit:prefetch
             >Visit Portfolio &gt;
           </a>
         </div>
@@ -58,12 +61,15 @@
       <div class="col-span-12 lg:col-span-4">
         <div class="card">
           <img src="/icons/ballot.svg" alt="Ballot Icon" class="grid-icon" />
-          <h3 class="tagline">My CV</h3>
-          <p>
+          <h3 class="tagline text-center">My CV</h3>
+          <p class="text-center">
             Check out my CV for a complete list of my skills, design tools I
             use, and great companies I have worked for!
           </p>
-          <a href="/resume" class="imageText-button" sveltekit:prefetch
+          <a
+            href="/resume"
+            class="imageText-button text-center"
+            sveltekit:prefetch
             >View CV &gt;
           </a>
         </div>
@@ -75,12 +81,14 @@
             alt="Envelope Icon"
             class="grid-icon"
           />
-          <h3 class="tagline">Contact</h3>
-          <p>
+          <h3 class="tagline text-center">Contact</h3>
+          <p class="text-center">
             Interested in working together? Get in touch to discuss future
             projects or any open ended questions you may have.
           </p>
-          <a href="mailto:florafischbacher1@gmail.com" class="imageText-button"
+          <a
+            href="mailto:florafischbacher1@gmail.com"
+            class="imageText-button text-center"
             >Get in Touch >
           </a>
         </div>
