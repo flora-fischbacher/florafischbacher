@@ -16,13 +16,20 @@
           App connecting restaurant owners with volunteers
         </h4>
         <p>
-          The objective of this project was to design and develop the website
-          for Allegria. As it is a restaurant website, the most important design
-          elements were the menu, photo gallery, and displaying customer
-          reviews.
+          After many months of restaurant closures due to the COVID-19 pandemic,
+          experts predicted a drop in sales of 40 to 50 percent in the entire
+          Austrian hospitality industry. Although many were able to help
+          themselves by turning to delivery services and online ordering, major
+          economic losses still remain in the hospitality industry. Additional
+          costs due to new sanitary standards and the absence of tourists are
+          jointly responsible for this.
           <br /><br />
-          Due to restaurant closures caused by the COVID-19 outbreak, we also implemented
-          an online ordering service which became a highlight for the community.
+          The project scope was to develop a digital experience (website or app)
+          to help local restaurant owners to connect with local professionals willing
+          to provide their skills and their time on a voluntary basis.<br /><br
+          />The defined goal was to enable restaurants to find solutions to the
+          many challenges they face. To connect them with people with
+          professional skills who are ready to help.
         </p>
         <a
           href="/case-studies/allegria"

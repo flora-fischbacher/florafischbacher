@@ -39,11 +39,11 @@
             pandemic, experts predicted a drop in sales of 40 to 50 percent in
             the entire Austrian hospitality industry. Although many were able to
             help themselves by turning to delivery services and online ordering,
-            major economic losses still remain in the hospitality. Additional
-            costs due to new sanitary standards and the absence of tourists are
-            jointly responsible for this. <br /><br />Due to the lockdowns and
-            restrictions, technology has proven a necessary resource for
-            restaurants to survive amid the pandemic.
+            major economic losses still remain in the hospitality industry.
+            Additional costs due to new sanitary standards and the absence of
+            tourists are jointly responsible for this. <br /><br />Due to the
+            lockdowns and restrictions, technology has proven a necessary
+            resource for restaurants to survive amid the pandemic.
           </p>
         </div>
       </div>
