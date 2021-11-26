@@ -32,7 +32,7 @@
           professional skills who are ready to help.
         </p>
         <a
-          href="/case-studies/allegria"
+          href="/case-studies/volunteerApp"
           class="imageText-button"
           sveltekit:prefetch
         >
