@@ -16,13 +16,19 @@
         App connecting restaurant owners with volunteers
       </h1>
       <img
-        src="/case-studies/volunteer-app/volunteer-preview-img.png"
+        src="/case-studies/volunteer-app/gastro-und-du-overview.jpeg"
         alt="App preview"
         class="w-2/3 mx-auto mt-16 -mb-20 md:w-1/2 lg:-mb-44"
       />
     </div>
   </div>
 </section>
+<div class="section-container">
+  <div class="text-center">
+    <a href="#final-desings" class="btn purple-shadow">View final designs > </a>
+  </div>
+</div>
+
 <section>
   <div class="py-16 section-container bg-brand-gold">
     <div class="grid grid-cols-12 gap-6">
@@ -265,7 +271,7 @@
   </div>
 </section>
 
-<section class="section-container">
+<section class="section-container" id="final-desings">
   <h2 class="special-heading text-center mx-auto">The big picture</h2>
   <img
     src="/case-studies/volunteer-app/wireframes-overview.png"
@@ -273,15 +279,54 @@
     class="w-full mx-auto"
   />
 </section>
-
 <section class="section-container">
-  <h2 class="special-heading text-center mx-auto">
-    Final design is coming soon...
+  <h2 class="special-heading text-center mx-auto">The final design</h2>
+  <div class="flex flex-wrap">
+    <div class="flex flex-wrap mx-auto">
+      <div class="flex-wrap w-full md:w-1/2">
+        <img
+          src="/case-studies/volunteer-app/intro-points.png"
+          alt="ecosio Blog Before"
+          class="w-full mx-auto p-4"
+        />
+      </div>
+      <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
+        <img
+          src="/case-studies/volunteer-app/register-steps.png"
+          alt="ecosio Blog After"
+          class="w-full mx-auto p-4"
+        />
+      </div>
+    </div>
+  </div>
+  <img
+    src="/case-studies/volunteer-app/hiring-process.png"
+    alt="ecosio customer journey"
+    class="w-full xl:w-1/2 mx-auto"
+  />
+</section>
+<section class="section-container bg-brand-brown">
+  <h2 class="special-heading-inverted text-center mx-auto pt-8">
+    Style guide & component library
   </h2>
-  <p class="text-center">
-    We re currently working on the prototypes and mockups, check back soon to
-    view the final product!
-  </p>
+  <div class="flex flex-wrap">
+    <div class="flex flex-wrap mx-auto">
+      <div class="flex-wrap w-full md:w-1/2">
+        <img
+          src="/case-studies/volunteer-app/style-guide.png"
+          alt="ecosio Blog Before"
+          class="w-full mx-auto p-4 lg:p-10"
+        />
+      </div>
+      <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
+        <img
+          src="/case-studies/volunteer-app/components.png"
+          alt="ecosio Blog After"
+          class="w-full mx-auto p-4 lg:p-10"
+        />
+      </div>
+    </div>
+  </div>
 </section>
 
 <style lang="postcss">
@@ -299,5 +344,16 @@
   .special-heading {
     font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+  }
+  .special-heading-inverted {
+    font-family: 'Annie Use Your Telescope', cursive;
+    @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+  }
+  .btn {
+    font-family: 'Annie Use Your Telescope', cursive;
+    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
+  }
+  .btn:hover {
+    @apply bg-brand-purple-btn-hover;
   }
 </style>

@@ -2,13 +2,11 @@
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-20 lg:pr-24 2xl:pr-40">
-        <div class="flex max-w-4xl bg-brand-purple">
-          <img
-            src="/case-studies/volunteer-app/volunteer-preview-img.png"
-            alt="gastro & du"
-            class="image-left-mobile"
-          />
-        </div>
+        <img
+          src="/case-studies/volunteer-app/gastro-und-du-overview.jpeg"
+          alt="gastro & du"
+          class="image-no-bg"
+        />
       </div>
       <div class="flex-wrap items-stretch w-full pl-0 mt-8 md:w-1/2 md:mt-0">
         <h3 class="tagline">gastro & du</h3>
