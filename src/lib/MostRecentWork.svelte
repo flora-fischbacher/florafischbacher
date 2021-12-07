@@ -1,5 +1,6 @@
 <section class="section-container">
   <div class="flex flex-wrap">
+    <h2 class="section-heading">Most Recent Work</h2>
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-20 lg:pr-24 2xl:pr-40">
         <img
@@ -73,7 +74,6 @@
 </section>
 <section class="section-container">
   <div class="flex flex-wrap">
-    <h2 class="section-heading">Most Recent Work</h2>
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-20 lg:pr-24 2xl:pr-40">
         <div class="flex max-w-4xl bg-brand-purple">

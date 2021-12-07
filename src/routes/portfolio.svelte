@@ -29,6 +29,23 @@
 </section>
 
 <section class="my-24 lg:my-48">
+  <h2 class="text-center company-name">gastro & du</h2>
+  <h3 class="text-center section-text">Entrie UX design process</h3>
+  <a href="case-studies/volunteerApp" sveltekit:prefetch class="no-underline">
+    <div class="flex md:items-center">
+      <div class="relative w-full md:px-6">
+        <img
+          src="/case-studies/volunteer-app/gastro-und-du-overview.jpeg"
+          alt="gastro & du"
+          class="will-change p-3 mx-auto w-2/3 md:w-1/3"
+          use:threeDimensionalEffect
+        />
+        <div class="w-full bg-brand-off-white background-rectangle"></div>
+      </div>
+    </div>
+  </a>
+</section>
+<section class="my-24 lg:my-48">
   <h2 class="text-center imageText-heading">ecosio</h2>
   <h3 class="text-center section-text">Blog re-design</h3>
   <a href="case-studies/ecosio" sveltekit:prefetch class="no-underline">
@@ -40,27 +57,44 @@
           class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
           use:threeDimensionalEffect
         />
-        <div class="w-full bg-brand-dust-rose background-rectangle"></div>
+        <div class="w-full bg-brand-gold background-rectangle"></div>
       </div>
     </div>
   </a>
 </section>
 <section class="my-24 lg:my-48">
-  <h2 class="text-center company-name">gastro & du</h2>
-  <h3 class="text-center section-text">Entrie UX design process</h3>
-  <a href="case-studies/volunteerApp" sveltekit:prefetch class="no-underline">
-    <div class="flex md:items-center">
-      <div class="relative w-full md:px-6">
-        <img
-          src="/case-studies/volunteer-app/volunteer-preview-img.png"
-          alt="gastro & du"
-          class="will-change p-3 mx-auto w-2/3 md:w-1/3 2xl:w-1/6"
-          use:threeDimensionalEffect
-        />
-        <div class="w-full bg-brand-gold background-rectangle"></div>
-      </div>
+  <h3 class="text-center tagline mb-5">Coming soon...</h3>
+  <h2 class="text-center company-name">Home for rent</h2>
+  <h3 class="text-center section-text">App design for a home rental project</h3>
+
+  <div class="flex md:items-center">
+    <div class="relative w-full md:px-6">
+      <img
+        src="/homepage/home-for-rent.png"
+        alt="gastro & du"
+        class="will-change p-3 mx-auto w-2/3 md:w-1/3 "
+        use:threeDimensionalEffect
+      />
+      <div class="w-full bg-brand-off-white background-rectangle"></div>
     </div>
-  </a>
+  </div>
+</section>
+<section class="my-24 lg:my-48">
+  <h3 class="text-center tagline mb-5">Coming soon...</h3>
+  <h2 class="text-center company-name">Alterra Aspen</h2>
+  <h3 class="text-center section-text">Social media & website design</h3>
+
+  <div class="flex md:items-center">
+    <div class="relative w-full md:px-6">
+      <img
+        src="/case-studies/alterra/alterra-preview-img.png"
+        alt="Alterra Aspen"
+        class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
+        use:threeDimensionalEffect
+      />
+      <div class="bg-brand-gold background-rectangle"></div>
+    </div>
+  </div>
 </section>
 
 <section class="my-24 lg:my-48">
@@ -75,7 +109,7 @@
           class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
           use:threeDimensionalEffect
         />
-        <div class="w-full bg-brand-dust-rose background-rectangle"></div>
+        <div class="w-full bg-brand-off-white background-rectangle"></div>
       </div>
     </div>
   </a>
@@ -97,23 +131,6 @@
       </div>
     </div>
   </a>
-</section>
-
-<section class="my-24 lg:my-48">
-  <h3 class="text-center tagline mb-5">Coming soon...</h3>
-  <h2 class="text-center company-name">Alterra Aspen</h2>
-  <h3 class="text-center section-text">Social media & website design</h3>
-  <div class="flex md:items-center">
-    <div class="relative w-full md:px-6">
-      <img
-        src="/case-studies/alterra/alterra-preview-img.png"
-        alt="Alterra Aspen"
-        class="will-change w-full p-3 mx-auto md:w-3/4 lg:w-3/5 2xl:w-2/5 sm:w-4/5"
-        use:threeDimensionalEffect
-      />
-      <div class="bg-brand-dust-rose background-rectangle"></div>
-    </div>
-  </div>
 </section>
 
 <style lang="postcss">
