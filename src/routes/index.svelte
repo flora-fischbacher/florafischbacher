@@ -15,10 +15,10 @@
     <div class="flex-wrap items-stretch w-full md:w-1/2">
       <h1 class="fancy-font-inverted">Hi I’m Flora.</h1>
       <h4 class="h4-uppercase">
-        Web design | UX Design | Marketing Automation
+        Web design | UX/UI Design | Marketing Automation
       </h4>
       <p class="hero-text">
-        I’m a junior UX/Web designer located in Vienna, Austria. Check out my
+        I’m a junior UX/UI designer located in Vienna, Austria. Check out my
         online portfolio where you can explore the projects I have recently been
         working on.
       </p>
