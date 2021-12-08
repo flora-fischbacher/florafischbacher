@@ -305,7 +305,7 @@
   }
 
   .special-heading {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+    font-family: 'Shadows Into Light Two', cursive;
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5 tracking-wider;
   }
 </style>

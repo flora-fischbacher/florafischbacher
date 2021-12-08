@@ -35,8 +35,8 @@
 
 <style lang="postcss">
   h1 {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brand-green text-center text-5xl mb-9;
+    font-family: 'Shadows Into Light Two', cursive;
+    @apply text-brand-brand-green text-center text-5xl mb-9 tracking-wider;
   }
 
   p {

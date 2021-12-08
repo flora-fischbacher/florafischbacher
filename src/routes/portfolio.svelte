@@ -150,8 +150,8 @@
     @apply bg-no-repeat bg-center py-32;
   }
   .section-text {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brand-green text-3xl;
+    font-family: 'Shadows Into Light Two', cursive;
+    @apply text-brand-brand-green text-3xl tracking-wider;
   }
   .company-name {
     @apply text-brand-brand-green text-3xl mb-5;

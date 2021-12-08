@@ -81,8 +81,8 @@
     z-index: 1;
   }
   .nav-link {
-    @apply block text-brand-brand-green mt-4 mr-4 text-2xl no-underline p-4;
-    font-family: 'Annie Use Your Telescope', cursive;
+    @apply block text-brand-brand-green mt-4 mr-4 text-2xl no-underline p-4 tracking-widest;
+    font-family: 'Shadows Into Light Two', cursive;
   }
   .nav-link:hover {
     @apply text-brand-green-hover;
