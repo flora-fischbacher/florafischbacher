@@ -41,7 +41,7 @@
     </div>
   </div>
 </section>
-<section class="py-9 2xl:py-12 section-container bg-brand-dust-rose">
+<section class="py-9 2xl:py-12 section-container bg-brand-brand-green">
   <div class="flex flex-wrap">
     <div class="flex flex-wrap-reverse items-center mx-auto">
       <div class="flex-wrap items-stretch w-full mt-8 md:w-1/2 md:mt-0">
@@ -76,7 +76,7 @@
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-20 lg:pr-24 2xl:pr-40">
-        <div class="flex max-w-4xl bg-brand-purple">
+        <div class="flex max-w-4xl bg-brand-purple rounded-md">
           <img
             src="/homepage/markus-hatvan-homepage.png"
             alt="Markus Hatvan Homepage"

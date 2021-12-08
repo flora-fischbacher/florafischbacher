@@ -25,9 +25,9 @@
     </div>
     <div class="flex items-stretch w-full md:w-1/2">
       <img
-        src="/homepage/flora-profile.png"
+        src="/homepage/flora.png"
         alt="Flora Fischbacher"
-        class="w-full mt-12 md:-mt-0"
+        class="w-full lg:w-2/3 xl:w-1/2 mx-auto mt-12 md:-mt-0"
       />
     </div>
   </div>
@@ -36,7 +36,7 @@
 <MostRecentWork />
 
 <section>
-  <div class="py-16 section-container bg-brand-gold">
+  <div class="py-16 section-container bg-brand-off-white">
     <div class="grid grid-cols-12 gap-6">
       <div class="col-span-12 lg:col-span-4">
         <div class="card">
@@ -46,7 +46,7 @@
             class="grid-icon"
           />
           <h3 class="tagline text-center">Portfolio</h3>
-          <p class="text-center">
+          <p class="text-left">
             Are you interested in other projects I have designed? Check out my
             entire portfolio showcasing more of my work.
           </p>
@@ -82,7 +82,7 @@
             class="grid-icon"
           />
           <h3 class="tagline text-center">Contact</h3>
-          <p class="text-center">
+          <p class="text-left">
             Interested in working together? Get in touch to discuss future
             projects or any open ended questions you may have.
           </p>
@@ -103,8 +103,8 @@
     @apply flex items-center h-full bg-center bg-cover md:py-11 lg:py-20 2xl:py-28;
   }
   .hero-container {
-    @apply flex flex-wrap items-center w-full md:w-11/12 lg:w-4/5 2xl:w-1/2 p-16 mx-auto bg-brand-dust-rose;
-    box-shadow: 0 2px 22px 4px rgba(0, 0, 0, 0.2);
+    @apply flex flex-wrap items-center w-full md:w-11/12 lg:w-4/5 2xl:w-1/2 p-16 mx-auto bg-brand-brand-green rounded-md;
+    filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
   }
   .hero-text {
     @apply text-brand-off-white text-xl text-left;

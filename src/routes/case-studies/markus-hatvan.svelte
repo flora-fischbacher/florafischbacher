@@ -9,14 +9,14 @@
 <section class="case-study-hero">
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full mt-16">
-      <h4 class="text-lg fancy-font-inverted text-center">Case Study</h4>
-      <h1 class="text-3xl text-center p-inverted">
+      <h4 class="text-lg fancy-font text-center">Case Study</h4>
+      <h1 class="text-3xl text-center text-brand-brand-green">
         Website for the freelancer Markus Hatvan
       </h1>
       <img
         src="/homepage/markus-hatvan-homepage.png"
         alt="Markus Hatvan Homepage"
-        class="w-2/3 mx-auto mt-16 md:w-1/2 -mb-44 case-study-hero-img"
+        class="w-2/3 mx-auto mt-16 md:w-1/2 -mb-44 purple-shadow"
       />
     </div>
   </div>
@@ -77,7 +77,7 @@
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-20 lg:pr-24 2xl:pr-40">
-        <div class="flex max-w-4xl bg-brand-purple">
+        <div class="flex max-w-4xl bg-brand-purple rounded-md">
           <img
             src="/case-studies/markus-hatvan/markus-logo-styles-small.png"
             alt="Markus Hatvan Homepage"
@@ -121,7 +121,7 @@
       </div>
       <div class="flex-wrap w-full pl-0 md:w-1/2 md:pl-20 lg:pl-24 2xl:pl-40">
         <div
-          class="flex flex-row-reverse max-w-4xl 2xl:max-w-3xl bg-brand-purple"
+          class="flex flex-row-reverse max-w-4xl 2xl:max-w-3xl bg-brand-purple rounded-md"
         >
           <img
             src="/case-studies/markus-hatvan/markus-hatvan-about.png"
@@ -134,7 +134,7 @@
   </div>
 </section>
 
-<section class="pb-12 section-container bg-brand-purple">
+<section class="pb-12 section-container bg-brand-gold">
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full md:w-1/2">
@@ -145,9 +145,9 @@
         />
       </div>
       <div class="flex-wrap items-stretch w-full pl-0 mt-8 md:w-1/2 md:mt-0">
-        <h3 class="tagline-inverted">Phase 3</h3>
-        <h4 class="imageText-heading-inverted">Technical Blog</h4>
-        <p class="text-brand-off-white">
+        <h3 class="tagline">Phase 3</h3>
+        <h4 class="imageText-heading">Technical Blog</h4>
+        <p>
           The last and most important part of the design process was the blog.
           It should be easy to navigate with the option to search for and filter
           articles.
@@ -162,7 +162,7 @@
         <img
           src="/case-studies/markus-hatvan/markus-hatvan-blog-post.png"
           alt="Markus Hatvan Blog"
-          class="w-full 2xl:w-4/5 md:pr-8"
+          class="w-full 2xl:w-4/5 md:pr-8 purple-shadow"
         />
       </div>
       <div class="flex-wrap w-full mt-8 md:w-1/2 md:mt-0">
@@ -177,16 +177,6 @@
 </section>
 
 <style lang="postcss">
-  .case-study-hero {
-    @apply flex bg-brand-purple mb-72 px-8;
-  }
-  .hero-container {
-    @apply flex flex-wrap items-center mx-auto;
-  }
-
-  .case-study-hero-img {
-    box-shadow: 0 2px 22px 0 #9b98ae;
-  }
   li {
     @apply text-left list-disc list-inside ml-8;
   }

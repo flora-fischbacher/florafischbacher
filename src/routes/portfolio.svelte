@@ -37,7 +37,7 @@
         <img
           src="/case-studies/volunteer-app/gastro-und-du-overview.jpeg"
           alt="gastro & du"
-          class="will-change p-3 mx-auto w-2/3 md:w-1/3"
+          class="will-change p-3 mx-auto w-2/3  md:w-1/2 2xl:w-1/3"
           use:threeDimensionalEffect
         />
         <div class="w-full bg-brand-off-white background-rectangle"></div>
@@ -63,7 +63,7 @@
   </a>
 </section>
 <section class="my-24 lg:my-48">
-  <h3 class="text-center tagline mb-5">Coming soon...</h3>
+  <h3 class="text-center tagline mb-5 green-hover">Coming soon...</h3>
   <h2 class="text-center company-name">Home for rent</h2>
   <h3 class="text-center section-text">App design for a home rental project</h3>
 
@@ -72,7 +72,7 @@
       <img
         src="/homepage/home-for-rent.png"
         alt="gastro & du"
-        class="will-change p-3 mx-auto w-2/3 md:w-1/3 "
+        class="will-change p-3 mx-auto w-2/3 md:w-1/2 2xl:w-1/3"
         use:threeDimensionalEffect
       />
       <div class="w-full bg-brand-off-white background-rectangle"></div>
@@ -139,8 +139,8 @@
     @apply flex items-center h-full bg-center bg-cover md:py-11 lg:py-20 2xl:py-28;
   }
   .hero-container {
-    @apply flex flex-wrap items-center w-full md:w-11/12 lg:w-4/5 2xl:w-1/2 p-16 mx-auto bg-brand-dust-rose;
-    box-shadow: 0 2px 22px 4px rgba(0, 0, 0, 0.2);
+    @apply flex flex-wrap items-center w-full md:w-11/12 lg:w-4/5 2xl:w-1/2 p-16 mx-auto bg-brand-brand-green rounded-md;
+    filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
   }
   .hero-text {
     @apply text-brand-off-white text-xl text-center;
@@ -151,10 +151,10 @@
   }
   .section-text {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-3xl;
+    @apply text-brand-brand-green text-3xl;
   }
   .company-name {
-    @apply text-brand-brown text-3xl mb-5;
+    @apply text-brand-brand-green text-3xl mb-5;
   }
 
   .animated-img {

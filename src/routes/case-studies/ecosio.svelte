@@ -9,8 +9,8 @@
 <section class="case-study-hero">
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full mt-16">
-      <h4 class="text-lg fancy-font-inverted text-center">Case Study</h4>
-      <h1 class="text-3xl text-center p-inverted">
+      <h4 class="text-lg fancy-font text-center">Case Study</h4>
+      <h1 class="text-3xl text-center text-brand-brand-green">
         Blog Re-design to Enhance User Experience & Increase Engagement
       </h1>
       <img
@@ -21,13 +21,6 @@
     </div>
   </div>
 </section>
-<!-- <div class="section-container">
-  <div class="text-center">
-    <a href="/" class="btn purple-shadow" target="_blank"
-      >Explore Live Prototype &gt;
-    </a>
-  </div>
-</div> -->
 <section>
   <div class="py-16 section-container bg-brand-gold">
     <div class="grid grid-cols-12 gap-6">
@@ -196,7 +189,7 @@
   <div class="flex flex-wrap">
     <div class="flex flex-wrap items-center mx-auto mt-8">
       <div class="flex-wrap w-full pr-0 md:w-1/2 md:pr-8 2xl:pr-12">
-        <div class="flex max-w-4xl bg-brand-gold">
+        <div class="flex max-w-4xl bg-brand-gold rounded-md">
           <img
             src="/case-studies/ecosio/ecosio-blog-post-showcase.png"
             alt="ecosio Blog"
@@ -307,25 +300,12 @@
 </section>
 
 <style lang="postcss">
-  .case-study-hero {
-    @apply flex bg-brand-purple mb-44 lg:mb-72 px-8;
-  }
-  .hero-container {
-    @apply flex flex-wrap items-center mx-auto;
-  }
-
   li {
     @apply text-left list-disc list-inside ml-8;
   }
-  .btn {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
-  }
-  .btn:hover {
-    @apply bg-brand-purple-btn-hover;
-  }
+
   .special-heading {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
 </style>
