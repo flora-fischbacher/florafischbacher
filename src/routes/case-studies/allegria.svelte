@@ -97,7 +97,7 @@
           <img
             src="/case-studies/allegria/allegria-catering.png"
             alt="Allegria Catering Page"
-            class="w-full 2xl:w-4/5 img-gold md:w-11/12"
+            class="w-full 2xl:w-4/5 purple-shadow md:w-11/12"
           />
         </div>
         <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
@@ -107,7 +107,7 @@
           <img
             src="/case-studies/allegria/allegria-holiday-events.png"
             alt="Allegria Holiday Events Page"
-            class="float-none w-full 2xl:w-4/5 img-gold md:float-right md:w-11/12"
+            class="float-none w-full 2xl:w-4/5 purple-shadow md:float-right md:w-11/12"
           />
         </div>
       </div>
@@ -118,7 +118,7 @@
           <img
             src="/case-studies/allegria/allegria-homepage.png"
             alt="Allegria Homepage"
-            class="w-full 2xl:w-4/5 img-gold md:w-11/12"
+            class="w-full 2xl:w-4/5 purple-shadow md:w-11/12"
           />
         </div>
         <div class="flex-wrap w-full mt-10 md:w-1/2 md:mt-0">
@@ -128,7 +128,7 @@
           <img
             src="/case-studies/allegria/allegria-blog.png"
             alt="Allegria Blog"
-            class="float-none w-full 2xl:w-4/5 img-gold md:float-right md:w-11/12"
+            class="float-none w-full 2xl:w-4/5 purple-shadow md:float-right md:w-11/12"
           />
         </div>
       </div>
@@ -138,7 +138,7 @@
 
 <style lang="postcss">
   .case-study-hero {
-    @apply flex bg-brand-dust-rose mb-44 lg:mb-72 px-8;
+    @apply flex bg-brand-brand-green mb-44 lg:mb-72 px-8;
   }
   .hero-container {
     @apply flex flex-wrap items-center mx-auto;
@@ -147,19 +147,9 @@
   li {
     @apply text-left list-disc list-inside ml-8;
   }
-  .btn {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-2xl bg-brand-dust-rose text-brand-off-white p-4;
-  }
-  .btn:hover {
-    @apply bg-brand-rose-btn-hover;
-  }
 
   .special-heading {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
-  }
-  .img-gold {
-    box-shadow: 0 2px 22px 0 rgba(172, 122, 127, 0.61);
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
 </style>

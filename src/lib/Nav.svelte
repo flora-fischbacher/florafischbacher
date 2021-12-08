@@ -34,7 +34,7 @@
       on:clickOutside="{() => (open = false)}"
     >
       <button
-        class="flex items-center px-3 py-2 rounded-sm bg-brand-dust-rose text-brand-off-white hover:bg-brand-brown"
+        class="flex items-center px-3 py-2 rounded-sm bg-brand-brand-green text-brand-off-white hover:bg-brand-green-hover"
         aria-label="Hamburger menu"
         on:click="{toggleHamburgerMenu}"
       >
@@ -75,19 +75,19 @@
 
 <style lang="postcss">
   .header-box-shadow {
-    box-shadow: 0 2px 22px 0 #bdbcbca6;
+    filter: drop-shadow(0px 2px 9px rgba(0, 0, 0, 0.18));
   }
   header {
     z-index: 1;
   }
   .nav-link {
-    @apply block text-brand-brown mt-4 mr-4 text-2xl no-underline p-4;
+    @apply block text-brand-brand-green mt-4 mr-4 text-2xl no-underline p-4;
     font-family: 'Annie Use Your Telescope', cursive;
   }
   .nav-link:hover {
-    @apply text-brand-dust-rose;
+    @apply text-brand-green-hover;
   }
   .nav-link-active {
-    @apply text-brand-dust-rose;
+    @apply text-brand-green-hover;
   }
 </style>

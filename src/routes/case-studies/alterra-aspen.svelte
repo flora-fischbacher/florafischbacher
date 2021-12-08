@@ -263,7 +263,7 @@
     class="w-full xl:w-1/2 mx-auto"
   />
 </section>
-<section class="section-container bg-brand-brown">
+<section class="section-container bg-brand-brand-green">
   <h2 class="special-heading-inverted text-center mx-auto pt-8">
     Style guide & component library
   </h2>
@@ -301,17 +301,10 @@
 
   .special-heading {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
   .special-heading-inverted {
     font-family: 'Annie Use Your Telescope', cursive;
     @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
-  }
-  .btn {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
-  }
-  .btn:hover {
-    @apply bg-brand-purple-btn-hover;
   }
 </style>

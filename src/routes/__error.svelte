@@ -25,7 +25,7 @@
   </p>
 
   <div class="text-center">
-    <a href="/" class="btn purple-shadow">Back to homepage &gt;</a>
+    <a href="/" class="btn">Back to homepage &gt;</a>
   </div>
 </section>
 
@@ -36,15 +36,9 @@
 <style lang="postcss">
   h1 {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-center text-5xl mb-9;
+    @apply text-brand-brand-green text-center text-5xl mb-9;
   }
-  .btn {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
-  }
-  .btn:hover {
-    @apply bg-brand-purple-btn-hover;
-  }
+
   p {
     @apply mb-12;
   }

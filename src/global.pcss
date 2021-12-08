@@ -5,12 +5,12 @@
 /*Global Fonts*/
 .fancy-font {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply text-brand-brown text-2xl;
+  @apply text-brand-brand-green text-2xl tracking-wide;
 }
 
 .fancy-font-inverted {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply mb-6 text-5xl text-brand-off-white;
+  @apply mb-6 text-5xl text-brand-off-white tracking-wide;
 }
 
 .h4-uppercase {
@@ -18,35 +18,35 @@
   text-transform: uppercase;
 }
 .h4-uppercase-inverted {
-  @apply text-brand-brown text-xl mb-6;
+  @apply text-brand-brand-green text-xl mb-6;
   text-transform: uppercase;
 }
 .tagline {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply text-brand-dust-rose text-2xl;
+  @apply text-brand-brand-green text-2xl tracking-wide;
 }
 
 .tagline-inverted {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply text-brand-off-white text-2xl;
+  @apply text-brand-off-white text-2xl tracking-wide;
 }
 
 .section-heading {
-  @apply text-brand-brown text-4xl;
+  @apply text-brand-brand-green text-4xl;
 }
 .imageText-heading {
-  @apply text-brand-brown text-2xl mb-5;
+  @apply text-brand-brand-green text-2xl mb-5;
 }
 .imageText-heading-inverted {
   @apply text-brand-off-white text-2xl mb-5;
 }
 .imageText-button {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply text-brand-dust-rose text-2xl block mt-12 underline;
+  @apply text-brand-brand-green text-2xl block mt-12 underline tracking-wide;
 }
 .imageText-button-inverted {
   font-family: 'Annie Use Your Telescope', cursive;
-  @apply text-brand-off-white text-2xl block mt-12 underline;
+  @apply text-brand-off-white text-2xl block mt-12 underline tracking-wide;
 }
 .p-inverted {
   font-family: Arial, Helvetica, sans-serif;
@@ -55,17 +55,17 @@
 
 .image-left-purple {
   @apply md:float-right w-full p-8 my-0 md:my-12 ml-0 md:p-0  md:ml-8 lg:ml-14 2xl:ml-24;
-  box-shadow: 0 2px 22px 0 #9b98ae;
+  filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
 }
 
 .image-right-purple {
   @apply md:float-left w-full p-8 my-0 md:my-12 mr-0 md:p-0  md:mr-8 lg:mr-14 2xl:mr-28;
-  box-shadow: 0 2px 22px 0 #9b98ae;
+  filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
 }
 
 .image-left-mobile {
   @apply w-full xl:w-1/2 p-8 mx-auto;
-  box-shadow: 0 2px 22px 0 #9b98ae;
+  filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
 }
 .image-no-bg {
   box-shadow: 0 2px 22px 0 #d1d1d1;
@@ -96,8 +96,9 @@ a {
   @apply px-4 my-32 md:px-11 lg:px-52 py-16 bg-brand-gold;
 }
 .card {
-  @apply h-full p-6 2xl:p-16 bg-brand-off-white;
-  box-shadow: 0 2px 22px 0 rgba(172, 122, 127, 0.61);
+  @apply h-full p-6 2xl:p-16 rounded-md;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
 }
 .grid-icon {
   @apply mx-auto mb-4 h-9;
@@ -109,7 +110,7 @@ a {
   @apply px-6 my-24 lg:my-32 sm:px-8 md:px-11 lg:px-16 xl:px-44;
 }
 .purple-shadow {
-  box-shadow: 0 2px 22px 0 #9b98ae;
+  filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.18));
 }
 .text-grid {
   @apply h-full p-6 text-left 2xl:p-16;
@@ -125,4 +126,17 @@ a {
 /* See https://www.keycdn.com/blog/animation-performance#when-to-use-will-change */
 .will-change {
   will-change: transform, transition;
+}
+.btn {
+  font-family: 'Annie Use Your Telescope', cursive;
+  @apply text-2xl bg-brand-brand-green text-brand-off-white p-4 rounded-md tracking-wider;
+}
+.btn:hover {
+  @apply bg-brand-green-hover;
+}
+.case-study-hero {
+  @apply flex bg-brand-off-white mb-44 lg:mb-72 px-8;
+}
+.hero-container {
+  @apply flex flex-wrap items-center mx-auto;
 }

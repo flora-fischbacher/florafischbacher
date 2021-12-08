@@ -9,10 +9,10 @@
 <section class="case-study-hero">
   <div class="hero-container">
     <div class="flex-wrap items-stretch w-full mt-16">
-      <h4 class="text-lg fancy-font-inverted text-center">
+      <h4 class="text-xl fancy-font text-center text-brand-brand-green">
         Current project - work in progress
       </h4>
-      <h1 class="text-2xl text-center p-inverted">
+      <h1 class="text-2xl text-center text-brand-brand-green">
         App connecting restaurant owners with volunteers
       </h1>
       <img
@@ -25,7 +25,7 @@
 </section>
 <div class="section-container">
   <div class="text-center">
-    <a href="#final-desings" class="btn purple-shadow">View final designs > </a>
+    <a href="#final-desings" class="btn">View final designs > </a>
   </div>
 </div>
 
@@ -261,10 +261,7 @@
         <p>
           Once we had a very solid foundation and clear direction, we were able
           to begin wire framing the customer journey and user flow.
-          <br /><br /><b
-            >We re currently working on the prototypes and mockups, check back
-            soon to view the final product!</b
-          >
+          <br /><br /><b>Check out the final design below!</b>
         </p>
       </div>
     </div>
@@ -305,7 +302,7 @@
     class="w-full xl:w-1/2 mx-auto"
   />
 </section>
-<section class="section-container bg-brand-brown">
+<section class="section-container bg-brand-purple">
   <h2 class="special-heading-inverted text-center mx-auto pt-8">
     Style guide & component library
   </h2>
@@ -330,30 +327,16 @@
 </section>
 
 <style lang="postcss">
-  .case-study-hero {
-    @apply flex bg-brand-purple mb-44 lg:mb-72 px-8;
-  }
-  .hero-container {
-    @apply flex flex-wrap items-center mx-auto;
-  }
-
   li {
     @apply text-left list-disc list-inside ml-8;
   }
 
   .special-heading {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-brown text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
   .special-heading-inverted {
     font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-brand-off-white text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
-  }
-  .btn {
-    font-family: 'Annie Use Your Telescope', cursive;
-    @apply text-2xl bg-brand-purple text-brand-off-white p-4;
-  }
-  .btn:hover {
-    @apply bg-brand-purple-btn-hover;
+    @apply text-brand-brand-green text-4xl text-center my-6 md:w-11/12 2xl:w-4/5;
   }
 </style>
