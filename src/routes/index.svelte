@@ -18,8 +18,8 @@
         Web design | UX/UI Design | Marketing Automation
       </h4>
       <p class="hero-text">
-        I’m a junior UX/UI designer located in Vienna, Austria. Check out my
-        online portfolio where you can explore the projects I have recently been
+        I’m a UX/UI designer located in Vienna, Austria. Check out my online
+        portfolio where you can explore the projects I have recently been
         working on.
       </p>
     </div>
